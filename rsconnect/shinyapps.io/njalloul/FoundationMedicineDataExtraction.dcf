@@ -1,0 +1,12 @@
+name: FoundationMedicineDataExtraction
+title: FoundationMedicineDataExtraction
+username:
+account: njalloul
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2490220
+bundleId: 3312771
+url: https://njalloul.shinyapps.io/FoundationMedicineDataExtraction/
+when: 1593032935.10666
+asMultiple: FALSE
+asStatic: FALSE

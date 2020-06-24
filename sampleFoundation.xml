@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rr:ResultsReport xmlns:rr="http://integration.foundationmedicine.com/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://integration.foundationmedicine.com/reporting http://integration.foundationmedicine.com/reporting/ResultsReport.2.1.xsd">
+  <rr:CustomerInformation>
+    <rr:ReferenceID />
+    <rr:CSN />
+    <rr:TRF>ID001</rr:TRF>
+    <rr:MRN>MRN</rr:MRN>
+    <rr:PhysicianId>PhysID</rr:PhysicianId>
+    <rr:NPI> </rr:NPI>
+  </rr:CustomerInformation>
+  <rr:ResultsPayload>
+    <FinalReport xmlns:xsd="http://www.w3.org/2001/XMLSchema" StagingId="0000" clinicalId="0000" xsi:noNamespaceSchemaLocation="http://integration.foundationmedicine.com/reporting/ClinicalReport.1.1.xsd">
+      <Application>
+        <ApplicationSettings>
+          <ApplicationSetting>
+            <Name>Statement</Name>
+            <Value />
+          </ApplicationSetting>
+        </ApplicationSettings>
+      </Application>
+      <DemographicCorrectionDate />
+      <ReportId>QRF147344</ReportId>
+      <SampleName>ID001.01</SampleName>
+      <Version>0</Version>
+      <Sample>
+        <FM_Id>ID001</FM_Id>
+        <SampleId>ID001.01</SampleId>
+        <BlockId>blockID</BlockId>
+        <TRFNumber>ID001</TRFNumber>
+        <TestType>FoundationOne CDX</TestType>
+        <SpecFormat>Slide</SpecFormat>
+        <ReceivedDate>yyyy-mm-dd</ReceivedDate>
+        <processSites>
+          <processSite address=" " cliaNumber=" " locationID=" " locationName=" " processID=" " processName="Sample Preparation Site" />
+          <processSite address=" " cliaNumber=" " locationID=" " locationName=" " processID=" " processName=" " />
+        </processSites>
+      </Sample>
+      <PMI>
+        <ReportId>ID001</ReportId>
+        <MRN>MRN</MRN>
+        <FullName>LastName, FirstName</FullName>
+        <FirstName>FirstName</FirstName>
+        <LastName>LastName</LastName>
+        <SubmittedDiagnosis>Fallopian tube serous carcinoma</SubmittedDiagnosis>
+        <Gender>Female</Gender>
+        <DOB>yyyy-mm-dd</DOB>
+        <OrderingMD> </OrderingMD>
+        <OrderingMDId> </OrderingMDId>
+        <Pathologist>Not Provided</Pathologist>
+        <CopiedPhysician1 />
+        <MedFacilName> </MedFacilName>
+        <MedFacilID> </MedFacilID>
+        <SpecSite>Omentum</SpecSite>
+        <CollDate>yyyy-mm-dd</CollDate>
+        <ReceivedDate>yyyy-mm-dd</ReceivedDate>
+        <CountryOfOrigin>US</CountryOfOrigin>
+      </PMI>
+      <PertinentNegatives>
+        <PertinentNegative>
+          <Gene>BRCA1</Gene>
+        </PertinentNegative>
+        <PertinentNegative>
+          <Gene>BRCA2</Gene>
+        </PertinentNegative>
+      </PertinentNegatives>
+      <Summaries alterationCount="21" clinicalTrialCount="22" resistiveCount="0" sensitizingCount="3" />
+      <VariantProperties>
+        <VariantProperty geneName="BRCA2" isVUS="true" variantName="T2515I" />
+        <VariantProperty geneName="BRD4" isVUS="true" variantName="amplification" />
+        <VariantProperty geneName="FANCG" isVUS="true" variantName="amplification" />
+        <VariantProperty geneName="HRAS" isVUS="true" variantName="C181Y" />
+        <VariantProperty geneName="KEAP1" isVUS="true" variantName="K303M,amplification" />
+        <VariantProperty geneName="MDM2" isVUS="true" variantName="rearrangement" />
+        <VariantProperty geneName="MSH3" isVUS="true" variantName="E413A" />
+        <VariantProperty geneName="PIK3C2G" isVUS="true" variantName="amplification" />
+        <VariantProperty geneName="PTPRO" isVUS="true" variantName="amplification" />
+        <VariantProperty geneName="TEK" isVUS="true" variantName="A925T" />
+        <VariantProperty geneName="TSC1" isVUS="true" variantName="H732Y" />
+      </VariantProperties>
+      <priorTests />
+      <Genes>
+        <Gene>
+          <Name>CCNE1</Name>
+          <Include>true</Include>
+          <Alterations>
+            <Alteration>
+              <Name>amplification</Name>
+              <AlterationProperties>
+                <AlterationProperty isEquivocal="true" name="amplification" />
+              </AlterationProperties>
+              <Interpretation>CCNE1 encodes the protein cyclin E1, which plays a role in the regulated transition from the G1 to S phase by binding to and activating cyclin-dependent protein kinase 2 (CDK2). It also has a direct role in initiation of replication and the maintenance of genomic stability (Möröy and Geisen, 2004; 15147722). Amplification of chromosomal region 19q12-q13 has been demonstrated in many types of cancer, and CCNE1 is a well-studied gene within this amplicon (Leung et al., 2006; 16575401, Lin et al., 2000; 11156406). Increased copy number of CCNE1 is highly associated with overexpression of the cyclin E1 protein (Mayr et al., 2006; 16753589, Nakayama et al., 2010; 20336784). Cyclin E1 overexpression can lead to cell transformation as a result of an increase in cyclin E1 activity (Stamatakos et al., 2010; 21176227, Möröy and Geisen, 2004; 15147722). CCNE1 was identified in an array comparative genome hybridization study in a region of frequent amplification in Fallopian tube carcinoma (Snijders et al., 2003; 12833150). In the Ovarian Serous Cystadenocarcinoma TCGA dataset, putative high-level amplification of CCNE1 has been reported in 20% of cases (Cancer Genome Atlas Research Network., 2011; 21720365). Other studies have confirmed the high frequency of CCNE1 amplification in ovarian epithelial carcinomas, particularly in serous carcinomas (Schraml et al., 2003; 12845634, Mayr et al., 2006; 16753589, Nakayama et al., 2007; 17351921, Wrzeszczynski et al., 2011; 22174824, Pils et al., 2014; 24176298, Gunn et al., 2013; 23289505). In ovarian cancer, increased copy number of CCNE1 is associated with overexpression of cyclin E1 protein, and high cyclin E1 expression has been reported in 45-62% of cases (Mayr et al., 2006; 16753589, Nakayama et al., 2010; 20336784, Pils et al., 2014; 24176298, Heeran et al., 2012; 22958293, Farley et al., 2003; 12649182). CCNE1 amplification and elevated cyclin E1 expression have both been associated with shorter survival in patients with ovarian cancer (Mayr et al., 2006; 16753589, Nakayama et al., 2010; 20336784, Farley et al., 2003; 12649182, Pils et al., 2014; 24176298, Heeran et al., 2012; 22958293). However, one study reported that in Danish patients with ovarian cancer, overexpression of cyclin E1 had no independent prognostic value (Heeran et al., 2012; 22958293). There are no approved therapies that directly target CCNE1 alterations. Because amplification or overexpression of CCNE1 leads to increased genomic instability though the ATR-CHK1 pathway (Lin et al., 2017; 28331049) and cyclin E1 promotes cell cycle progression in a complex with CDK2 (Möröy and Geisen, 2004; 15147722), clinical and preclinical studies have investigated inhibitors of CHK1, ATR, and CDK2 as potential therapeutic approaches for tumors with CCNE1 activation. Clinical benefit has been reported for patients with recurrent high-grade ovarian carcinoma with CCNE1 amplification or expression in response to treatment with the CHK1 inhibitor prexasertib (Lee et al., 2018; 29361470). Preclinical studies have demonstrated that cell lines with CCNE1 amplification or overexpression were sensitive to inhibitors of ATR (Toledo et al., 2011; 21552262, Buisson et al., 2015; 26365377) or CDK2 (Yang et al., 2015; 26204491). However, other studies have shown that sensitivity of various cell lines to CDK2 inhibitors, including SNS-032, dinaciclib, and seliciclib, at clinically achievable doses, is largely independent of CCNE1 copy number or expression (Taylor-Harding et al., 2015; 25557169, Etemadmoghadam et al., 2013; 24004674, Scaltriti et al., 2011; 21321214, Nanos-Webb et al., 2012; 21695458). One study has reported a reduction in tumor CCNE1 levels in 4/6 lung and esophageal cancer cases following treatment with the HDAC inhibitor vorinostat, paralleling findings from a CCNE1-driven mouse model of lung cancer, where vorinostat treatment led to tumor reduction and a decrease in CCNE1 levels (Ma et al., 2013; 23686769). CCNE1 amplification has also been implicated in resistance to platinum-based therapies in patients with ovarian carcinoma (Nakayama et al., 2010; 20336784, Etemadmoghadam et al., 2009; 19193619, Patch et al., 2015; 26017449, Lambrechts et al., 2016; 26693899), correlating with inferior survival in this population (Nakayama et al., 2010; 20336784, Etemadmoghadam et al., 2009; 19193619).</Interpretation>
+              <Include>true</Include>
+              <ClinicalTrialNote>Amplification or overexpression of CCNE1 leads to increased genomic instability though ATR-CHK1 pathway, and may confer sensitivity to CHK1 inhibitors.</ClinicalTrialNote>
+              <Therapies />
+              <ReferenceLinks />
+              <ClinicalTrialLinks>
+                <ClinicalTrialLink nctId="NCT02203513">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT02873975">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT03057145">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT03495323">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+              </ClinicalTrialLinks>
+            </Alteration>
+          </Alterations>
+          <ReferenceLinks />
+        </Gene>
+        <Gene>
+          <Name>KRAS</Name>
+          <Include>true</Include>
+          <Alterations>
+            <Alteration>
+              <Name>amplification</Name>
+              <AlterationProperties>
+                <AlterationProperty isEquivocal="false" name="amplification" />
+              </AlterationProperties>
+              <Interpretation>KRAS encodes a member of the RAS family of small GTPases. Activating mutations in RAS genes can cause uncontrolled cell proliferation and tumor formation (Pylayeva-Gupta et al., 2011; 21993244, Kahn et al., 1987; 3310850). In numerous cancer type-specific studies as well as a large-scale pan-cancer analysis, KRAS amplification was shown to correlate with increased expression (McIntyre et al., 2005; 16354586, Mita et al., 2009; 19545448, Birkeland et al., 2012; 23099803, Chen et al., 2014; 24874471). Additionally, KRAS amplification correlated with sensitivity of cancer cell lines to KRAS knockdown, suggesting that amplified KRAS is an oncogenic driver (Chen et al., 2014; 24874471). KRAS amplification has not been reported in the context of Fallopian tube carcinoma (PubMed, Feb 2019)(Snijders et al., 2003; 12833150), and KRAS mutations were not reported in any of the 8 Fallopian tube cancers of various histologies analyzed in COSMIC (Feb 2019). However, a high incidence of mutations in KRAS codon 12 has been reported in a small study of 8 patients with primary Fallopian tube adenocarcinoma (Mizuuchi et al., 1995; 8630881). KRAS amplification has been identified in 9% of high-grade ovarian serous carcinoma cases (Cancer Genome Atlas Research Network., 2011; 21720365). In one study, KRAS amplification did not correlate with overall survival or progression-free survival in type 2 ovarian carcinoma (Rahman et al., 2013; 23820584). Preclinical evidence suggests that KRAS activation may predict sensitivity to MEK inhibitors, such as trametinib and cobimetinib (Nakano et al., 1984; 6320174, Pylayeva-Gupta et al., 2011; 21993244, Yamaguchi et al., 2011; 21523318, Watanabe et al., 2013; 23438367, Gilmartin et al., 2011; 21245089, Yeh et al., 2009; 19372556). One preclinical study reported sensitivity of a cell line with KRAS amplification to MEK inhibition (Rahman et al., 2013; 23820584), whereas another study found that cell lines with KRAS amplification are less sensitive to MEK inhibitors than those with KRAS mutations (Qian et al., 2014; 24935174). Clinical responses to MEK inhibitor-based therapy regimens have been observed in patients with KRAS mutation in certain tumor types (Banerji et al., 2014; ASCO Abstract e13559, Bendell et al., 2014; AACR Abstract CT328, Juric et al., 2014; ASCO Abstract 9051, Spreafico et al., 2014; ASCO Abstract 5506)(Bedard et al., 2014; 25500057, Infante et al., 2012; 22805291, Janne et al., 2013; 23200175). A case study has reported significant and prolonged response to trametinib monotherapy in a patient with KRAS-mutant low-grade serous ovarian carcinoma (Pejovic et al., 2015; Am J Clin Exp Obstet Gynecol 2:140-143). Clinical trials of combination treatment with MEK and PI3K inhibitors have reported nearly 100% disease control (partial responses/stable disease) in patients with KRAS-mutant ovarian cancer, including 50-75% rates of partial/complete responses (Spreafico et al., 2014; ASCO Abstract 5506, Juric et al., 2014; ASCO Abstract 9051, Banerji et al., 2014; ASCO Abstract e13559)(Bedard et al., 2014; 25500057). The reovirus Reolysin targets cells with activated RAS signaling (Strong et al., 1998; 9628872, Coffey et al., 1998; 9812900, Gong and Mita, 2014; 25019061) and is in clinical trials in patients with some tumor types. Reolysin has demonstrated mixed clinical efficacy, with the highest rate of response reported for patients with head and neck cancer (Forsyth et al., 2008; 18253152, Vidal et al., 2008; 18981012, Gollamudi et al., 2010; 19572105, Harrington et al., 2010; 20484020, Comins et al., 2010; 20926400, Lolkema et al., 2011; 21106728, Galanis et al., 2012; 22871663, Karapanagiotou et al., 2012; 22316603, Morris et al., 2013; 22886613).</Interpretation>
+              <Include>true</Include>
+              <ClinicalTrialNote>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</ClinicalTrialNote>
+              <Therapies>
+                <Therapy>
+                  <Name />
+                  <GenericName>Binimetinib</GenericName>
+                  <FDAApproved>false</FDAApproved>
+                  <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Binimetinib is a MEK inhibitor that is FDA approved in combination with encorafenib to treat patients with unresectable or metastatic melanoma with BRAF V600E or V600K mutations. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical evidence in various solid tumors and hematologic malignancies (Grisham et al., 2018; 29844129, Slosberg et al., 2018; 29765547), KRAS activating alterations may predict sensitivity to MEK inhibitors such as binimetinib. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; A Phase 1b study evaluating the combination of binimetinib and paclitaxel in patients with platinum-resistant epithelial ovarian cancer reported an objective response rate of 18% (5/28) and a disease control rate of 57% (16/28) (Grisham et al., 2018; 29844129). Clinical benefit, including a complete response in a patient harboring a BRAF fusion, was reported in all four patients with MAPK pathway mutations (Grisham et al., 2018; 29844129). Partial responses were reported in two patients with KRAS-mutant ovarian cancer treated with single-agent binimetinib (Slosberg et al., 2018; 29765547). &lt;/p&gt;</Rationale>
+                  <ApprovedUses />
+                  <Effect>Sensitizing</Effect>
+                  <Include>true</Include>
+                  <IncludeInSummary>true</IncludeInSummary>
+                  <ReferenceLinks />
+                </Therapy>
+                <Therapy>
+                  <Name />
+                  <GenericName>Cobimetinib</GenericName>
+                  <FDAApproved>false</FDAApproved>
+                  <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Cobimetinib is a MEK inhibitor that is FDA approved in combination with vemurafenib for the treatment of unresectable or metastatic melanoma with BRAF V600E or V600K mutations. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical (Bendell et al., 2014; AACR Abstract CT328, Diamond et al., 2019; 30867592, Jacobsen et al., 2019; 29236635) and preclinical evidence (Hoeflich et al, 2012; 22084396), KRAS amplification or activating mutations may predict sensitivity to MEK inhibitors such as cobimetinib. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; In a Phase 1b study, out of 47 patients treated with cobimetinib and the AKT inhibitor ipatasertib, 3 patients with KRAS-mutant ovarian, mesonephric cervical, or endometrial carcinoma had a partial response (PR), with prolonged stable disease (SD) lasting for &gt;6 months (Bendell et al., 2014; AACR Abstract CT328). Other clinical trials of combination treatment with MEK and PI3K inhibitors have reported 75-100% disease control (PR/SD) in patients with KRAS-mutant ovarian cancer, including 50-75% rates of PR/ complete response (Spreafico et al., 2014; ASCO Abstract 5506, Juric et al., 2014; ASCO Abstract 9051, Banerji et al., 2014; ASCO Abstract e13559)(Bedard et al., 2014; 25500057). &lt;/p&gt;</Rationale>
+                  <ApprovedUses />
+                  <Effect>Sensitizing</Effect>
+                  <Include>true</Include>
+                  <IncludeInSummary>true</IncludeInSummary>
+                  <ReferenceLinks />
+                </Therapy>
+                <Therapy>
+                  <Name />
+                  <GenericName>Trametinib</GenericName>
+                  <FDAApproved>false</FDAApproved>
+                  <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Trametinib is a MEK inhibitor that is FDA approved as a monotherapy and in combination with dabrafenib to treat patients with unresectable or metastatic melanoma with BRAF V600E or V600K mutations, as well as in combination with dabrafenib as adjuvant treatment for completely resected advanced BRAF V600E- or V600K-positive melanoma. It is also approved in combination with dabrafenib to treat patients with metastatic non-small cell lung cancer (NSCLC) with a BRAF V600E mutation and to treat patients with BRAF V600E-positive anaplastic thyroid cancer (ATC) who lack satisfactory locoregional treatment options. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; KRAS amplification or activating mutations may activate the downstream MAPK pathway and may indicate sensitivity to MEK inhibitors such as trametinib. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; A case study described significant and prolonged response to trametinib monotherapy in a patient with KRAS-mutant low-grade serous ovarian carcinoma (LGSC) (Pejovic et al., 2015; Am J Clin Exp Obstet Gynecol 2:140-143). A patient with NRAS-mutant, recurrent LGSC experienced a rapid response to trametinib treatment (Champer et al., 2019; 30809568). A Phase 2 study of the MEK inhibitor selumetinib in patients with recurrent LGSC, reported a response rate of 15% (8/52, including 1 CR and 7 PRs) and SD of 65%; in an exploratory analysis of 32 samples, KRAS or NRAS mutation status did not significantly correlated with response (Han et al., 2018; 29946554). A clinical trial of combination treatment with trametinib and the PI3K inhibitor buparlisib observed a 50% response rate (PR and CR) and a &gt;75% disease control rate (DCR) at the Phase 2 recommended dose in patients with KRAS-mutant ovarian cancer (Bedard et al., 2014; 25500057). Other clinical trials of combination treatment with MEK and PI3K inhibitors have also reported 75-100% DCRs in patients with KRAS-mutant ovarian cancer, including 50-75% rates of PR/CR (Spreafico et al., 2014; ASCO Abstract 5506, Juric et al., 2014; ASCO Abstract 9051, Banerji et al., 2014; ASCO Abstract e13559). &lt;/p&gt;</Rationale>
+                  <ApprovedUses />
+                  <Effect>Sensitizing</Effect>
+                  <Include>true</Include>
+                  <IncludeInSummary>true</IncludeInSummary>
+                  <ReferenceLinks />
+                </Therapy>
+              </Therapies>
+              <ReferenceLinks />
+              <ClinicalTrialLinks>
+                <ClinicalTrialLink nctId="NCT03264066">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT01827384">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT03695380">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT03833427">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT03637491">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT03745989">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT02070549">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT03162627">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT02925234">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT03875820">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+              </ClinicalTrialLinks>
+            </Alteration>
+          </Alterations>
+          <ReferenceLinks />
+        </Gene>
+        <Gene>
+          <Name>MDM2</Name>
+          <Include>true</Include>
+          <Alterations>
+            <Alteration>
+              <Name>amplification</Name>
+              <AlterationProperties>
+                <AlterationProperty isEquivocal="false" name="amplification" />
+              </AlterationProperties>
+              <Interpretation>MDM2 encodes an E3 ubiquitin protein ligase, which mediates the ubiquitination and subsequent degradation of p53, Rb1, and other proteins (Sdek et al., 2005; 16337594, Brady et al., 2005; 15632057, Li et al., 2004; 15053880). MDM2 acts to prevent the activity of the tumor suppressor p53; therefore, overexpression or amplification of MDM2 may be oncogenic (Brown et al., 2009; 19935675, Cordon-Cardo et al., 1994; 8306343). Overexpression or amplification of MDM2 is frequent in cancer (Beroukhim et al., 2010; 20164920). Although two retrospective clinical studies suggest that MDM2 amplification may predict a short time-to-treatment failure on anti-PD-1/PD-L1 immune checkpoint inhibitors, with 4/5 patients with MDM2 amplification (Kato et al., 2017; 28351930) and 2/3 patients with MDM2 or MDM4 amplification (Singavi et al., 2017; ESMO Abstract 1140PD) experiencing tumor hyperprogression, amplification of MDM2 or MDM4 was not associated with shorter progression-free survival (PFS) in a retrospective analysis of non-small cell lung cancer (NSCLC) outcomes with immune checkpoint inhibitors (hazard ratio of 1.4, p=0.44)(Rizvi et al., 2018; 29337640). The latter study reported PFS of &gt;2 months for 5/8 patients with MDM2/MDM4 amplification (Rizvi et al., 2018; 29337640). MDM2 amplification has not been extensively studied in the context of fallopian tube serous carcinoma (PubMed, Mar 2019). Amplification of MDM2 has been reported across a wide range in ovarian cancers, from 4% to 58% of cases (Cancer Genome Atlas Research Network., 2011; 21720365, Momand et al., 1998; 9671804, Mayr et al., 2006; 16753589). Overexpression of MDM2 mRNA and protein varies across different subtypes of ovarian cancer, with higher expression reported in low-grade serous (60%) and ovarian clear cell carcinoma (49%), compared to high-grade serous (5%) and mucinous ovarian cancer (0%), with endometrioid in an intermediate range (22%) (Momand et al., 1998; 9671804, Mayr et al., 2006; 16753589, Dogan et al., 2005; 15790436, Kalloger et al., 2011; 21131918). MDM2 protein overexpression has been associated with poor prognosis in two studies of ovarian cancer (Dogan et al., 2005; 15790436, Makii et al., 2016; 27659536). MDM2 antagonists disrupt the MDM2-p53 interaction, thereby stabilizing p53 (Cheok et al., 2011; 20975744). Preclinical studies have suggested that amplification of MDM2, in the absence of concurrent TP53 mutations, may increase sensitivity to these agents (Ohnstad et al., 2013; 23165797, Gamble et al., 2012; 21725357). Multiple MDM2 antagonists are under investigation in clinical trials (Beryozkina et al., 2011; ASCO Abstract 3039, Siu et al., 2014; ASCO Abstract 2535, Zhang et al., 2019; ASCO Abstract 3124, Rasco et al., 2019; ASCO Abstract 3126). Preliminary Phase 1 studies of the MDM2-p53 antagonist APG-115 reported a PR in a patient with liposarcoma harboring a MDM2 amplification and wild-type for TP53 and SD in 21.4%–38.5% (5/13 and 6/28) of patients in genomically unselected solid tumors (Zhang et al., 2019; ASCO Abstract 3124, Rasco et al., 2019; ASCO Abstract 3126).</Interpretation>
+              <Include>true</Include>
+              <ClinicalTrialNote>Inhibitors of the MDM2-p53 interaction are being tested in clinical trials. Overexpression or amplification of MDM2 may increase sensitivity to these agents, but more data are required.</ClinicalTrialNote>
+              <Therapies />
+              <ReferenceLinks />
+              <ClinicalTrialLinks>
+                <ClinicalTrialLink nctId="NCT02935907">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT03611868">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+              </ClinicalTrialLinks>
+            </Alteration>
+          </Alterations>
+          <ReferenceLinks />
+        </Gene>
+        <Gene>
+          <Name>RICTOR</Name>
+          <Include>true</Include>
+          <Alterations>
+            <Alteration>
+              <Name>amplification</Name>
+              <AlterationProperties>
+                <AlterationProperty isEquivocal="false" name="amplification" />
+              </AlterationProperties>
+              <Interpretation>RICTOR encodes an mTOR-binding protein that forms part of the rapamycin-insensitive mTORC2 complex, a regulator of cell metabolism and the cytoskeleton (Sarbassov et al., 2004; 15268862, Jacinto et al., 2004; 15467718, Pearce et al., 2007; 17461779). RICTOR amplification has been reported in cancer (Cheng et al., 2014; ASCO Abstract 8027, Ruder et al., 2015; AACR Abstract 3576, Dabir et al., 2015; ASCO Abstract 7576, Ross et al., 2014; 24978188) and has been associated with clinical response to mTORC1/2 inhibition (Cheng et al., 2014; ASCO Abstract 8027, Kristeleit et al., 2015; ASCO Abstract 2592). RICTOR amplification has not been evaluated specifically in primary peritoneal or Fallopian tube carcinomas in available datasets or the scientific literature (COSMIC, cBioPortal, PubMed, Mar 2019). In the Ovarian Serous Cystadenocarcinoma TCGA dataset, putative high level amplification of RICTOR has been observed in 3% of cases (Cancer Genome Atlas Research Network., 2011; 21720365). The prognostic significance of RICTOR amplification or mutation in ovarian, Fallopian tube, or peritoneal cancer has not been extensively studied (PubMed, Jan 2019). Tumors with RICTOR amplification may be sensitive to inhibitors of mTORC2, the RICTOR-containing complex (Sparks and Guertin, 2010; 20418915). In a preclinical study, RICTOR-overexpressing glioma cells were sensitive to RICTOR knockdown (Masri et al., 2007; 18089801). A patient with RICTOR-amplified lung adenocarcinoma experienced stable disease for &gt;18 months upon treatment with dual mTORC1/mTORC2 inhibitors (Cheng et al., 2015; 26370156), and a patient with RICTOR-amplified metastatic thymus cancer achieved a partial response upon treatment with a pan-PI3K/mTORC1/mTORC2 inhibitor (Kristeleit et al., 2015; ASCO Abstract 2592). Numerous inhibitors that target both mTORC1 and mTORC2 complexes, as well as dual PI3K/mTOR inhibitors, are under preclinical and clinical investigation in multiple tumor types (Wander et al., 2011; 21490404, Schenone et al., 2011; 21651476). RICTOR alterations, including amplification, have been implicated in resistance to the EGFR tyrosine kinase inhibitor erlotinib in patients with non-small cell lung carcinoma (Ruder et al., 2015; AACR Abstract 3576).</Interpretation>
+              <Include>true</Include>
+              <ClinicalTrialNote>RICTOR is a component of the mTORC2 complex. Therefore, dual mTORC1/mTORC2 inhibitors, as well as dual PI3K/mTOR inhibitors, may be relevant for a patient with RICTOR amplification or activating mutation.</ClinicalTrialNote>
+              <Therapies />
+              <ReferenceLinks />
+              <ClinicalTrialLinks>
+                <ClinicalTrialLink nctId="NCT02576444">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT03065062">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT01920061">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT02159989">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+                <ClinicalTrialLink nctId="NCT02719691">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+              </ClinicalTrialLinks>
+            </Alteration>
+          </Alterations>
+          <ReferenceLinks />
+        </Gene>
+        <Gene>
+          <Name>TP53</Name>
+          <Include>true</Include>
+          <Alterations>
+            <Alteration>
+              <Name>R248W</Name>
+              <AlterationProperties>
+                <AlterationProperty isEquivocal="false" name="R248W" />
+              </AlterationProperties>
+              <Interpretation>Functional loss of the tumor suppressor p53, which is encoded by the TP53 gene, is common in aggressive advanced cancers (Brown et al., 2009; 19935675). Any alteration that results in the disruption or partial or complete loss of the region encoding the TP53 DNA-binding domain (DBD, aa 100-292) or the tetramerization domain (aa 325-356), such as observed here, is thought to dysregulate the transactivation of p53-dependent genes and is predicted to promote tumorigenesis (Joerger and Fersht, 2008; 18410249, Kato et al., 2003; 12826609, Kamada et al., 2011; 20978130). Germline mutations in TP53 are associated with the very rare disorder Li-Fraumeni syndrome and the early onset of many cancers (Bougeard et al., 2015; 26014290, Sorrell et al., 2013; 23355100, Nichols et al., 2001; 11219776), including sarcomas (Taubert et al., 1998; 10780879, Kleihues et al., 1997; 9006316, Gonzalez et al., 2009; 19204208). Estimates for the prevalence of germline TP53 mutations in the general population range from 1:5,000 (Lalloo et al., 2003; 12672316) to 1:20,000 (Gonzalez et al., 2009; 19204208). In the appropriate clinical context, germline testing of TP53 is recommended. TP53 alterations have been reported in 29-80% of ovarian tumors, with a higher incidence in high-grade pelvic (primary ovarian, tubal, or peritoneal) serous carcinoma, with incidence of 91-97% (Ahmed et al., 2010; 20229506, Wojnarowicz et al., 2012; 23029043, Kuhn et al., 2012; 21990067, Karst and Drapkin, 2010; 19746182, Gadducci et al., 2012; 22304686, Cancer Genome Atlas Research Network, 2011; 21720365, Rechsteiner et al., 2013; 23965232, Okamoto et al., 1991; 1680546). TP53 alterations have also been reported in serous tubal intraepithelial carcinomas (STICs) of the Fallopian tube, which are suggested to be precursor lesions of tubo-ovarian high grade serous carcinomas (MacDaniel et al., 2015; 26181193, Kindelberger et al., 2007; 17255760, Meserve et al., 2017; 28106106, Kurman and Shih, 2011; 21683865). Aberrant p53 expression has been associated with higher ovarian serous carcinoma grade (89-90% of high-grade vs. 6.6-9% of low-grade vs. 0% of benign) (Altman et al., 2013; 23558569, Giurgea et al., 2012; 23303020, Rajesh et al., 2007; 17883046). TP53 mutations have been reported to be more frequent in advanced stage (63%, 55/87) and higher grade (65%, 42/64) than earlier stage (31%, 14/45) and lower grade (41%, 7/17) ovarian carcinomas (Rechsteiner et al., 2013; 23965232). Meta-analysis has suggested that TP53 expression was associated with poorer survival in ovarian epithelial cancers, although the effect was modest and considerable variability was observed between studies (de Graeff et al., 2009; 19513073). There are no approved therapies to address TP53 mutation or loss. However, tumors with TP53 loss of function alterations may be sensitive to the WEE1 inhibitor AZD1775 (Hirai et al., 2010; 20107315, Bridges et al., 2011; 21799033, Rajeshkumar et al., 2011; 21389100, Osman et al., 2015; 25504633), or p53 gene therapy and immunotherapeutics such as SGT-53 (Xu et al., 2002; 12489850, Xu et al., 2001; 11713371, Camp et al., 2013; 23470564, Kim et al., 2015; 25240597, Pirollo et al., 2016; 27357628) and ALT-801 (Hajdenberg et al., 2012; ASCO Abstract e15010). Missense mutations leading to TP53 inactivation may also be sensitive to therapies that reactivate mutant p53 such as APR-246 (Gourley et al., 2016; ASCO Abstract 5571, Lehmann et al., 2012; 22965953, Mohell et al., 2015; 26086967, Franssonet al., 2016; 27179933). In a Phase 1b trial in patients with p53-positive high-grade serous ovarian cancer, APR-246 combined with carboplatin and pegylated liposomal doxorubicin achieved a 52% (11/21) response rate and 100% disease control rate (Gourley et al., 2016; ASCO Abstract 5571). In a Phase 1 study, AZD1775 in combination with gemcitabine, cisplatin, or carboplatin elicited partial response in 10% (17/176) and stable disease in 53% (94/176) of patients with solid tumors; the response rate was 21% (4/19) in patients with TP53 mutations versus 12% (4/33) in patients who were TP53-wild-type (Leijen et al., 2016; 27601554). Combination of AZD1775 with paclitaxel and carboplatin achieved significantly longer progression-free survival than paclitaxel and carboplatin alone in patients with TP53-mutant ovarian cancer (Oza et al., 2015; ASCO Abstract 5506). Furthermore, AZD1775 in combination with carboplatin achieved a 27% (6/22) response rate and 41% (9/22) stable disease rate in patients with TP53-mutant ovarian cancer refractory or resistant to carboplatin plus paclitaxel (Leijen et al., 2015; ASCO Abstract 2507). In a Phase 1b clinical trial of SGT-53 in combination with docetaxel in patients with solid tumors, 75% (9/12) of evaluable patients experienced clinical benefit, including two confirmed and one unconfirmed partial responses and two instances of stable disease with significant tumor shrinkage (Pirollo et al., 2016; 27357628). Additionally, the combination of a CHK1 inhibitor and irinotecan reportedly reduced tumor growth and prolonged survival in a TP53 mutant, but not TP53 wild-type, breast cancer xenotransplant mouse model (Ma et al., 2012; 22446188).</Interpretation>
+              <Include>true</Include>
+              <ClinicalTrialNote>TP53 loss of function alterations may predict sensitivity to WEE1 inhibitors. TP53 missense mutations may predict sensitivity to therapies that reactivate mutant p53.</ClinicalTrialNote>
+              <Therapies />
+              <ReferenceLinks />
+              <ClinicalTrialLinks>
+                <ClinicalTrialLink nctId="NCT03113487">
+                  <Include>true</Include>
+                </ClinicalTrialLink>
+              </ClinicalTrialLinks>
+            </Alteration>
+          </Alterations>
+          <ReferenceLinks />
+        </Gene>
+        <Gene>
+          <Name>LYN</Name>
+          <Include>true</Include>
+          <Alterations>
+            <Alteration>
+              <Name>amplification</Name>
+              <AlterationProperties>
+                <AlterationProperty isEquivocal="true" name="amplification" />
+              </AlterationProperties>
+              <Interpretation>LYN encodes a SRC family intracellular membrane-associated tyrosine protein kinase. LYN is expressed predominantly in hematopoietic cells and conveys signals from the B-cell receptor (BCR) and other receptors to activate the PI3K, STAT, and other signaling pathways (reviewed in Xu et al., 2005; 15664155, Ingley, 2012; 22805580). LYN mutations have been documented infrequently in various cancers (COSMIC, cBioPortal, 2019), but LYN amplification has been reported at high frequencies in ovarian serous cystadenocarcinoma (9%), breast carcinoma (7%), and prostate adenocarcinoma (4%) and at lower frequencies in other tumor types (cBioPortal, 2019). LYN expression and activation have also been reported in several types of solid tumors, including glioblastoma (Stettner et al., 2005; 15994925), prostate cancer (Goldenberg-Furmanov et al., 2004; 14871838), head and neck squamous cell carcinoma (HNSCC) (Wheeler et al., 2012; 22490227), and Ewing sarcoma (Guan et al., 2008; 18644993). LYN has also been reported to be overexpressed in 14.2% of breast cancer specimens (in particular in 47% of triple-negative breast cancers vs. 4% of others) and LYN overexpression was an independent poor prognostic variable (p=0.02) in that study (Choi et al., 2010; 20215510). LYN activation and overexpression has also been implicated in chemoresistance of colorectal cancer cells (Bates et al., 2001; 11431370). In preclinical studies, inhibition of LYN decreased the proliferation and tumorigenicity of multiple cancer cell lines in vitro and/or in xenografted mice (Goldenberg-Furmanov et al., 2004; 14871838, Guan et al., 2008; 18644993) and cell invasion and migration of other cell lines (Wheeler et al., 2012; 22490227, Choi et al., 2010; 20215510, Williams et al., 2009; 18984583). Dasatinib is a kinase inhibitor that targets the BCR-ABL fusion protein, SRC family kinases including LYN specifically at nanomolar concentration (Nam et al., 2005; 16230377, Williams et al., 2009; 18984583), and other kinases, and has been approved for the treatment of chronic myelocytic leukemia (CML) and acute lymphoblastic leukemia (ALL). Dasatinib and other kinase inhibitors that target LYN are under investigation in clinical trials in solid tumors. In preclinical studies, dasatinib has been reported to inhibit cell migration and invasion in LYN-expressing solid tumor cells (Choi et al., 2010; 20215510, Nam et al., 2005; 16230377, Williams et al., 2009; 18984583). However, amplification or other genomic alterations in LYN in solid tumors, and their potential predictive value for sensitivity of these tumors to dasatinib and other kinase inhibitors, remain poorly understood. LYN is known to play oncogenic roles in hematopoietic malignancies such as CML, acute myeloid leukemia (AML), and chronic lymphocytic leukemia (CLL) (Ingley, 2012; 22805580), and a clinical trial examining LYN inhibition in patients with CLL is recruiting participants.</Interpretation>
+              <Include>true</Include>
+              <ClinicalTrialNote />
+              <Therapies />
+              <ReferenceLinks />
+              <ClinicalTrialLinks />
+            </Alteration>
+          </Alterations>
+          <ReferenceLinks />
+        </Gene>
+        <Gene>
+          <Name>Microsatellite status</Name>
+          <Include>true</Include>
+          <Alterations>
+            <Alteration>
+              <Name>MS-Stable</Name>
+              <AlterationProperties>
+                <AlterationProperty isEquivocal="false" name="MS-Stable" />
+              </AlterationProperties>
+              <Interpretation>Microsatellite instability (MSI) is a condition of genetic hypermutability that generates excessive amounts of short insertion/deletion mutations in the genome; it generally occurs at microsatellite DNA sequences and is caused by a deficiency in DNA mismatch repair (MMR) in the tumor (Kocarnik et al., 2015; 26337942). Defective MMR and consequent MSI occur as a result of genetic or epigenetic inactivation of one of the MMR pathway proteins, primarily MLH1, MSH2, MSH6, or PMS2 (You et al., 2010; 21081928, Bairwa et al., 2014; 24623249, Kocarnik et al., 2015; 26337942). This sample is microsatellite-stable (MSS), equivalent to the clinical definition of an MSS tumor: one with mutations in none of the tested microsatellite markers (Boland et al., 1998; 9823339, Pawlik et al., 2004; 15528785, Boland and Goel, 2010; 20420947). MSS status indicates MMR proficiency and typically correlates with intact expression of all MMR family proteins (Kocarnik et al., 2015; 26337942, Bairwa et al., 2014; 24623249, Pawlik et al., 2004; 15528785, Boland and Goel, 2010; 20420947). MSI-high (MSI-H) has been reported in 1.6-19.7% of ovarian cancer samples (Segev et al., 2015; 26775351, Plisiecka-Hałasa et al., 2008; 18507046), including 3.8% (1/26) of ovarian endometrioid adenocarcinomas (Huang et al., 2015; 25195947), 10.0% (3/30) of ovarian clear cell carcinomas (CCOCs) (Strickland et al., 2016; ASCO Abstract 5514) and 84.6% (11/13) of ovarian cystadenocarcinomas (Caliman et al., 2012; 22970055). MSI-H was also frequently observed in ovarian cystadenomas (60.0%; 6/10) and normal ovary tissue (78.6%; 11/14)(Caliman et al., 2012; 22970055). No association of MSI-H with stage or survival was found in patients with ovarian cancer (Segev et al., 2015; 26775351, Aysal et al., 2012; 22189970). On the basis of clinical evidence, MSS tumors are significantly less likely than MSI-H tumors to respond to anti-PD-1 immune checkpoint inhibitors (Gatalica et al., 2014; 25392179, Kroemer et al., 2015; 26140250, Lal et al., 2015; 25949894), including approved therapies nivolumab and pembrolizumab (Overman et al., 2016; ASCO Abstract 3501, Le et al., 2015; 26028255). In a retrospective analysis of 361 patients with solid tumors treated with pembrolizumab, 3% were MSI-H and experienced a significantly higher ORR compared with non-MSI-H cases (70% vs. 12%, p=0.001) (Ayers et al., ASCO-SITC 2016; Abstract P60).</Interpretation>
+              <Include>true</Include>
+              <ClinicalTrialNote />
+              <Therapies />
+              <ReferenceLinks />
+              <ClinicalTrialLinks />
+            </Alteration>
+          </Alterations>
+          <ReferenceLinks />
+        </Gene>
+        <Gene>
+          <Name>NOTCH3</Name>
+          <Include>true</Include>
+          <Alterations>
+            <Alteration>
+              <Name>amplification</Name>
+              <AlterationProperties>
+                <AlterationProperty isEquivocal="false" name="amplification" />
+              </AlterationProperties>
+              <Interpretation>NOTCH3 encodes a member of the NOTCH family of receptors, which are involved in cell fate determination and various developmental processes. Upon binding of membrane-bound ligands, NOTCH signaling involves cleavage of the NOTCH intracellular domain (NICD), which subsequently forms part of a transcription factor complex that regulates downstream target genes (Penton et al., 2012; 22306179, Kopan and Ilagan, 2009; 19379690). NOTCH3 amplification has been frequently observed in high-grade serous ovarian carcinoma and uterine cancer and has been shown to lead to increased NOTCH3 expression (Park et al., 2006; 16778208, Hu et al., 2014; 24743243), which is associated with poor prognosis and carboplatin resistance (Hu et al., 2014; 24743243, Park et al., 2010; 20671266). Preclinical studies have shown that tumors with NOTCH3 expression are sensitive to gamma-secretase inhibitors (Konishi et al., 2007; 17804716, Park et al., 2006; 16778208). Although NOTCH3 mutations are reported in only 1% of ovarian carcinomas (Cancer Genome Atlas Research Network., 2011; 21720365, Hu et al., 2014; 24743243, Egloff and Grandis, 2012; 22773520), NOTCH3 amplification is frequent, reported in 15-20% of cases (Cancer Genome Atlas Research Network., 2011; 21720365, Hu et al., 2014; 24743243, Park et al., 2006; 16778208). NOTCH3 amplification has been shown to correlate to NOTCH3 mRNA and protein expression, with strong NOTCH3 expression detected in more than 60% of ovarian cancers in one study (Jung et al., 2010; 20624166). NOTCH3 pathway alterations and NOTCH3 overexpression are correlated with advanced disease, poor prognosis, and shorter survival for patients with ovarian carcinoma (Jung et al., 2010; 20624166, Hu et al., 2014; 24743243, Park et al., 2010; 20671266). In preclinical models, NOTCH3 expression resulted in increased cell proliferation as well as more aggressive tumor behavior in mouse xenograft studies; inhibiting NOTCH3 with genetic means or with gamma secretase inhibitors has been demonstrated to ameliorate these phenotypes (Serafin et al., 2011; 21598247, Hu et al., 2014; 24743243, Konishi et al., 2007; 17804716, Park et al., 2006; 16778208, Xiao et al., 2011; 20838375). Several approaches for inhibiting NOTCH3 signaling are being developed, including neutralizing NOTCH antibodies such as OMP-59R5 (Yen et al., 2015; 25934888), which targets NOTCH2 and NOTCH3, and pan-Notch inhibitors, such as gamma-secretase inhibitors (GSI) (Hu et al., 2014; 24743243, Konishi et al., 2007; 17804716, Xiao et al., 2011; 20838375). A Phase 1b study of OMP-59R5 in combination with gemcitabine and nab-paclitaxel has shown promising efficacy (up to 50% partial response) in patients with untreated metastatic pancreatic cancer (O’Reilly et al., 2015; Gastrointestinal Cancers Symposium Abstract 278). A Phase 1b study of OMP-59R5 in combination with etoposide and cisplatin for small cell lung cancer reported a median progression free survival of 124 days and 84% overall response rate (Pietanza et al., 2015; ASCO Abstract 7508). The GSI BMS-906024 inhibits NOTCH activity in vitro and exhibits anti-tumor activity in xenograft models of leukemia and triple negative breast cancer harboring NOTCH1 and NOTCH3 activating mutations or overexpression (Gavai et al., 2015; 26005526). These agents are being investigated in preclinical studies and early clinical trials in various tumor types (Espinoza and Miele, 2013; 23458608).</Interpretation>
+              <Include>true</Include>
+              <ClinicalTrialNote />
+              <Therapies />
+              <ReferenceLinks />
+              <ClinicalTrialLinks />
+            </Alteration>
+          </Alterations>
+          <ReferenceLinks />
+        </Gene>
+        <Gene>
+          <Name>Tumor Mutation Burden</Name>
+          <Include>true</Include>
+          <Alterations>
+            <Alteration>
+              <Name>TMB-Low</Name>
+              <AlterationProperties>
+                <AlterationProperty isEquivocal="false" name="TMB-Low" />
+              </AlterationProperties>
+              <Interpretation>Tumor mutational burden (TMB, also known as mutation load) is a measure of the number of somatic protein-coding base substitution and insertion/deletion mutations occurring in a tumor specimen. TMB is affected by a variety of causes, including exposure to mutagens such as ultraviolet light in melanoma (Pfeifer et al., 2005; 15748635, Hill et al., 2013; 23875803) and cigarette smoke in lung cancer (Pfeifer et al., 2002; 12379884, Rizvi et al., 2015; 25765070), mutations in the proofreading domains of DNA polymerases encoded by the POLE and POLD1 genes (Cancer Genome Atlas Research Network, 2013; 23636398, Briggs and Tomlinson, 2013; 23447401, Heitzer and Tomlinson, 2014; 24583393, Cancer Genome Atlas Network, 2012; 22810696, Roberts and Gordenin, 2014; 25568919), and microsatellite instability (MSI) (Cancer Genome Atlas Research Network, 2013; 23636398, Cancer Genome Atlas Network, 2012; 22810696, Roberts and Gordenin, 2014; 25568919). This sample harbors a low TMB. Compared to patients with tumors harboring higher TMB levels, patients with tumors harboring low TMB levels have experienced lower rates of clinical benefit from treatment with immune checkpoint inhibitors, including anti-CTLA-4 therapy in melanoma (Snyder et al., 2014; 25409260), anti-PD-L1 therapy in urothelial carcinoma (Rosenberg et al., 2016; 26952546), and anti-PD-1 therapy in non-small cell lung cancer and colorectal cancer (Rizvi et al., 2015; 25765070, Le et al., 2015; 26028255). Ovarian carcinomas, including peritoneal and Fallopian tube carcinomas, harbor a median TMB of 2.7-3.6 mutations per megabase (muts/Mb) depending upon subtype, and up to 2.1% of cases have high TMB (&gt;20 muts/Mb)(FMI-Chalmers et al., 2017; 28420421). In a study of high grade serous ovarian cancer, homologous recombination (HR)-deficient tumors, which comprised ~50% of all samples, harbored a higher neoantigen load compared to HR-proficient tumors; higher neoantigen load was associated with longer overall survival but not disease free survival (Strickland et al., 2016; 26871470). On the basis of strong clinical evidence, elevated TMB may be associated with greater sensitivity to immunotherapeutic agents, including anti-CTLA-4, anti-PD-L1, and anti-PD-1 immune checkpoint inhibitors; approved agents include ipilimumab, atezolizumab, avelumab, durvalumab, cemiplimab-rwlc, pembrolizumab, and nivolumab. Clinical studies have reported associations between elevated TMB and efficacy of PD-1- or PD-L1-targeting therapies, alone or in combination with other agents, in multiple types of solid tumors, including small cell (Dolgin, 2017; 29101156, Hellmann et al., 2018; 29731394) and non-small cell (Hellmann et al., 2018; 29658845, Hellmann et al., 2018; 29657128, Ready et al., 2019; 30785829, Goodman et al., 2017; 28835386, Carbone et al., 2017; 28636851, Rizvi et al., 2018; 29337640, Forde et al., 2018; 29658848, Samstein et al., 2019; 30643254, Miao et al., 2018; 30150660, Chae et al., 2019; 30425022, Colli et al., 2016; 27197178, Wang et al., 2017; 28923100, Gandara et al., 2018; 30082870) lung cancer, urothelial carcinoma (Rosenberg et al., 2016; 26952546, Balar et al., 2017; 27939400, Powles et al., 2018; 29268948, Mariathasan et al., 2018; 29443960, Samstein et al., 2019; 30643254), melanoma (Johnson et al., 2016; 27671167, Goodman et al., 2017; 28835386, Eroglu et al, 2018; 29320474, Shin et al., 2017; 27903500, Riaz et al., 2017; 29033130, Cristescu et al., 2018; 30309915, Miao et al., 2018; 30150660, Samstein et al., 2019; 30643254), colorectal cancer (Samstein et al., 2019; 30643254, Fabrizio et al., 2018; 30151257), HNSCC (Samstein et al., 2019; 30643254, Hanna et al., 2018; 29467336), and other cancer types (Goodman et al., 2017; 28835386, Cristescu et al., 2018; 30309915, Ott et al, 2019; 30557521, Mehnert et al., 2016; 27159395, Santin et al., 2016; 27486176). For patients with melanoma, increased TMB has also been reported to be associated with clinical benefit from the CTLA-4 inhibitor ipilimumab (Snyder et al., 2014; 25409260, Van Allen et al., 2015; 26359337, Colli et al., 2016; 27197178, Roszik et al., 2017; 27776519).</Interpretation>
+              <Include>true</Include>
+              <ClinicalTrialNote />
+              <Therapies />
+              <ReferenceLinks />
+              <ClinicalTrialLinks />
+            </Alteration>
+          </Alterations>
+          <ReferenceLinks />
+        </Gene>
+      </Genes>
+      <Trials>
+        <Trial>
+          <Gene>CCNE1</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>A Phase II Single Arm Pilot Study of the Chk1/2 Inhibitor (LY2606368) in BRCA1/2 Mutation Associated Breast or Ovarian Cancer, Triple Negative Breast Cancer, High Grade Serous Ovarian Cancer, and Metastatic Castrate-Resistant Prostate Cancer</Title>
+          <StudyPhase>PHASE 2</StudyPhase>
+          <Target>CHK1</Target>
+          <Locations>Maryland</Locations>
+          <NCTID>NCT02203513</NCTID>
+          <Note>Amplification or overexpression of CCNE1 leads to increased genomic instability though ATR-CHK1 pathway, and may confer sensitivity to CHK1 inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>CCNE1</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>A Study of LY2606368 (Prexasertib) in Patients With Solid Tumors With Replicative Stress or Homologous Repair Deficiency</Title>
+          <StudyPhase>PHASE 2</StudyPhase>
+          <Target>CHK1</Target>
+          <Locations>Massachusetts</Locations>
+          <NCTID>NCT02873975</NCTID>
+          <Note>Amplification or overexpression of CCNE1 leads to increased genomic instability though ATR-CHK1 pathway, and may confer sensitivity to CHK1 inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>CCNE1</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>Combination Study of Prexasertib and Olaparib in Patients With Advanced Solid Tumors</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>PARP, CHK1</Target>
+          <Locations>Massachusetts</Locations>
+          <NCTID>NCT03057145</NCTID>
+          <Note>Amplification or overexpression of CCNE1 leads to increased genomic instability though ATR-CHK1 pathway, and may confer sensitivity to CHK1 inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>CCNE1</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>A Study of Prexasertib (LY2606368), CHK1 Inhibitor, and LY3300054, PD-L1 Inhibitor, in Patients With Advanced Solid Tumors</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>CHK1, PD-L1</Target>
+          <Locations>Massachusetts</Locations>
+          <NCTID>NCT03495323</NCTID>
+          <Note>Amplification or overexpression of CCNE1 leads to increased genomic instability though ATR-CHK1 pathway, and may confer sensitivity to CHK1 inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>KRAS</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>A Study to Investigate the Efficacy and Safety of Cobimetinib Plus Atezolizumab in Participants With Solid Tumors</Title>
+          <StudyPhase>PHASE 2</StudyPhase>
+          <Target>PD-L1, MEK</Target>
+          <Locations>District of Columbia, Kansas, New York, Tennessee, Kortrijk (Belgium), Heidelberg (Germany), Tübingen (Germany), Budapest (Hungary), Debrecen (Hungary), Nyíregyháza (Hungary), Seoul (Korea, Republic of), London (United Kingdom)</Locations>
+          <NCTID>NCT03264066</NCTID>
+          <Note>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>KRAS</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>Molecular Profiling-Based Targeted Therapy in Treating Patients With Advanced Solid Tumors</Title>
+          <StudyPhase>PHASE 2</StudyPhase>
+          <Target>PARP, mTOR, MEK, WEE1</Target>
+          <Locations>Colorado, Kentucky, Maryland, Missouri, Pennsylvania, Texas</Locations>
+          <NCTID>NCT01827384</NCTID>
+          <Note>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>KRAS</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>A Clinical Study of Cobimetinib Administered in Combination With Niraparib, With or Without Atezolizumab to Patients With Advanced Platinum-sensitive Ovarian Cancer</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>PARP, PD-L1, MEK</Target>
+          <Locations>Arizona, California, Florida, Georgia, Milano (Italy), Missouri, New York, Oklahoma, Tennessee, Wisconsin, Girona (Spain), Jaen (Spain), Madrid (Spain), Valencia (Spain)</Locations>
+          <NCTID>NCT03695380</NCTID>
+          <Note>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>KRAS</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>Study of Selumetinib (MK-5618) in Combination With Pembrolizumab (MK-3475) in Participants With Advanced/Metastatic Solid Tumors (MK-5618-001)</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>PD-1, MEK</Target>
+          <Locations>California, Michigan, New Jersey, Toronto (Canada), Texas, Quebec (Canada)</Locations>
+          <NCTID>NCT03833427</NCTID>
+          <Note>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>KRAS</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>A Study of Avelumab, Binimetinib and Talazoparib in Patients With Locally Advanced or Metastatic RAS-mutant Solid Tumors</Title>
+          <StudyPhase>PHASE 2</StudyPhase>
+          <Target>MEK, PARP, PD-L1</Target>
+          <Locations>Arkansas, Colorado, Indiana, Pennsylvania, Texas, Utah, Brussels (Belgium), Gent (Belgium), Singapore (Singapore)</Locations>
+          <NCTID>NCT03637491</NCTID>
+          <Note>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>KRAS</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>Study of MK-8353 + Selumetinib in Advanced/Metastatic Solid Tumors (MK-8353-014)</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>ERK1, ERK2, MEK</Target>
+          <Locations>Vancouver (Canada), Florida, Toronto (Canada), Texas, Bellinzona (Switzerland)</Locations>
+          <NCTID>NCT03745989</NCTID>
+          <Note>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>KRAS</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>Trametinib in Treating Patients With Advanced Cancer With or Without Hepatic Dysfunction</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>MEK</Target>
+          <Locations>Vancouver (Canada), Missouri, Toronto (Canada), Texas</Locations>
+          <NCTID>NCT02070549</NCTID>
+          <Note>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>KRAS</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>Selumetinib and Olaparib in Solid Tumors</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>MEK, PARP</Target>
+          <Locations>Texas</Locations>
+          <NCTID>NCT03162627</NCTID>
+          <Note>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>KRAS</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>The Drug Rediscovery Protocol (DRUP Trial)</Title>
+          <StudyPhase>PHASE 2</StudyPhase>
+          <Target>EGFR, PARP, BRAF, ABL, KIT, PDGFRs, MEK, ERBB2, ERBB3, SMO, RAF1, RET, VEGFRs, PD-1</Target>
+          <Locations>Amsterdam (Netherlands)</Locations>
+          <NCTID>NCT02925234</NCTID>
+          <Note>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>KRAS</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>Phase I Trial of VS-6063 and RO5126766.</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>RAFs, MEK, FAK</Target>
+          <Locations>Manchester (United Kingdom), Sutton (United Kingdom)</Locations>
+          <NCTID>NCT03875820</NCTID>
+          <Note>KRAS activating mutations or amplification may predict sensitivity to inhibitors of MAPK pathway components, including MEK inhibitors.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>MDM2</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>APG-115 in Patients With Advanced Solid Tumors or Lymphomas</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>MDM2</Target>
+          <Locations>Michigan, Texas</Locations>
+          <NCTID>NCT02935907</NCTID>
+          <Note>Inhibitors of the MDM2-p53 interaction are being tested in clinical trials. Overexpression or amplification of MDM2 may increase sensitivity to these agents, but more data are required.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>MDM2</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>A Study of APG-115 in Combination With Pembrolizumab in Patients With Metastatic Melanomas or Advanced Solid Tumors</Title>
+          <StudyPhase>PHASE 1/2</StudyPhase>
+          <Target>MDM2, PD-1</Target>
+          <Locations>Texas</Locations>
+          <NCTID>NCT03611868</NCTID>
+          <Note>Inhibitors of the MDM2-p53 interaction are being tested in clinical trials. Overexpression or amplification of MDM2 may increase sensitivity to these agents, but more data are required.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>RICTOR</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>OLAParib COmbinations</Title>
+          <StudyPhase>PHASE 2</StudyPhase>
+          <Target>PARP, AKTs, WEE1, mTORC1, mTORC2</Target>
+          <Locations>Connecticut, Massachusetts, Ohio, Tennessee</Locations>
+          <NCTID>NCT02576444</NCTID>
+          <Note>RICTOR is a component of the mTORC2 complex. Therefore, dual mTORC1/mTORC2 inhibitors, as well as dual PI3K/mTOR inhibitors, may be relevant for a patient with RICTOR amplification or activating mutation.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>RICTOR</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>Study of the CDK4/6 Inhibitor Palbociclib (PD-0332991) in Combination With the PI3K/mTOR Inhibitor Gedatolisib (PF-05212384) for Patients With Advanced Squamous Cell Lung, Pancreatic, Head &amp; Neck and Other Solid Tumors</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>PI3K-alpha, PI3K-gamma, mTORC1, mTORC2, CDK4, CDK6</Target>
+          <Locations>Massachusetts</Locations>
+          <NCTID>NCT03065062</NCTID>
+          <Note>RICTOR is a component of the mTORC2 complex. Therefore, dual mTORC1/mTORC2 inhibitors, as well as dual PI3K/mTOR inhibitors, may be relevant for a patient with RICTOR amplification or activating mutation.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>RICTOR</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>A Study Of PF-05212384 In Combination With Other Anti-Tumor Agents</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>PI3K-alpha, PI3K-gamma, mTORC1, mTORC2, EGFR, ERBB2, ERBB4</Target>
+          <Locations>Alabama</Locations>
+          <NCTID>NCT01920061</NCTID>
+          <Note>RICTOR is a component of the mTORC2 complex. Therefore, dual mTORC1/mTORC2 inhibitors, as well as dual PI3K/mTOR inhibitors, may be relevant for a patient with RICTOR amplification or activating mutation.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>RICTOR</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>Sapanisertib and Ziv-Aflibercept in Treating Patients With Recurrent Solid Tumors That Are Metastatic or Cannot Be Removed by Surgery</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>PIGF, VEGFA, VEGFB, mTORC1, mTORC2</Target>
+          <Locations>Texas</Locations>
+          <NCTID>NCT02159989</NCTID>
+          <Note>RICTOR is a component of the mTORC2 complex. Therefore, dual mTORC1/mTORC2 inhibitors, as well as dual PI3K/mTOR inhibitors, may be relevant for a patient with RICTOR amplification or activating mutation.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>RICTOR</Gene>
+          <Alteration>amplification</Alteration>
+          <Title>Phase I Study of MLN0128 and MLN8237 in Patients With Advanced Solid Tumors and Metastatic Triple-negative Breast Cancer</Title>
+          <StudyPhase>PHASE 1</StudyPhase>
+          <Target>Aurora kinase A, mTORC1, mTORC2</Target>
+          <Locations>Colorado</Locations>
+          <NCTID>NCT02719691</NCTID>
+          <Note>RICTOR is a component of the mTORC2 complex. Therefore, dual mTORC1/mTORC2 inhibitors, as well as dual PI3K/mTOR inhibitors, may be relevant for a patient with RICTOR amplification or activating mutation.</Note>
+          <Include>true</Include>
+        </Trial>
+        <Trial>
+          <Gene>TP53</Gene>
+          <Alteration>R248W</Alteration>
+          <Title>P53MVA and Pembrolizumab in Treating Patients With Recurrent Ovarian, Primary Peritoneal, or Fallopian Tube Cancer</Title>
+          <StudyPhase>PHASE 2</StudyPhase>
+          <Target>PD-1, TP53</Target>
+          <Locations>California</Locations>
+          <NCTID>NCT03113487</NCTID>
+          <Note>TP53 loss of function alterations may predict sensitivity to WEE1 inhibitors. TP53 missense mutations may predict sensitivity to therapies that reactivate mutant p53.</Note>
+          <Include>true</Include>
+        </Trial>
+      </Trials>
+      <References>
+        <Reference number="0">
+          <ReferenceId>15147722</ReferenceId>
+          <FullCitation>Möröy T, Geisen C (2004) Cyclin E. Int. J. Biochem. Cell Biol. 36 (8):1424-39</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="1">
+          <ReferenceId>16575401</ReferenceId>
+          <FullCitation>Leung SY, Ho C, Tu IP, et al. (2006) Comprehensive analysis of 19q12 amplicon in human gastric cancers. Mod. Pathol. 19 (6):854-63</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="2">
+          <ReferenceId>11156406</ReferenceId>
+          <FullCitation>Lin L, Prescott MS, Zhu Z, et al. (2000) Identification and characterization of a 19q12 amplicon in esophageal adenocarcinomas reveals cyclin E as the best candidate gene for this amplicon. Cancer Res. 60 (24):7021-7</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="3">
+          <ReferenceId>16753589</ReferenceId>
+          <FullCitation>Mayr D, Kanitz V, Anderegg B, et al. (2006) Analysis of gene amplification and prognostic markers in ovarian cancer using comparative genomic hybridization for microarrays and immunohistochemical analysis for tissue microarrays. Am. J. Clin. Pathol. 126 (1):101-9</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="4">
+          <ReferenceId>20336784</ReferenceId>
+          <FullCitation>Nakayama N, Nakayama K, Shamima Y, et al. (2010) Gene amplification CCNE1 is related to poor survival and potential therapeutic target in ovarian cancer. Cancer 116 (11):2621-34</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="5">
+          <ReferenceId>21176227</ReferenceId>
+          <FullCitation>Stamatakos M, Palla V, Karaiskos I, et al. (2010) Cell cyclins: triggering elements of cancer or not? World J Surg Oncol ePub Dec 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="6">
+          <ReferenceId>12833150</ReferenceId>
+          <FullCitation>Snijders AM, Nowee ME, Fridlyand J, et al. (2003) Genome-wide-array-based comparative genomic hybridization reveals genetic homogeneity and frequent copy number increases encompassing CCNE1 in fallopian tube carcinoma. Oncogene 22 (27):4281-6</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="7">
+          <ReferenceId>21720365</ReferenceId>
+          <FullCitation>(2011) Integrated genomic analyses of ovarian carcinoma. Nature ePub Jun 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="8">
+          <ReferenceId>12845634</ReferenceId>
+          <FullCitation>Schraml P, Bucher C, Bissig H, et al. (2003) Cyclin E overexpression and amplification in human tumours. J. Pathol. 200 (3):375-82</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="9">
+          <ReferenceId>17351921</ReferenceId>
+          <FullCitation>Nakayama K, Nakayama N, Jinawath N, et al. (2007) Amplicon profiles in ovarian serous carcinomas. Int. J. Cancer 120 (12):2613-7</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="10">
+          <ReferenceId>22174824</ReferenceId>
+          <FullCitation>Wrzeszczynski KO, Varadan V, Byrnes J, et al. (2011) Identification of tumor suppressors and oncogenes from genomic and epigenetic features in ovarian cancer. PLoS ONE ePub 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="11">
+          <ReferenceId>24176298</ReferenceId>
+          <FullCitation>Pils D, Bachmayr-Heyda A, Auer K, et al. (2014) Cyclin E1 (CCNE1) as independent positive prognostic factor in advanced stage serous ovarian cancer patients - a study of the OVCAD consortium. Eur. J. Cancer ePub Jan 2014</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="12">
+          <ReferenceId>23289505</ReferenceId>
+          <FullCitation>Gunn S, Reveles X, Weldon K, et al. (2013) Molecular cytogenetics as a clinical test for prognostic and predictive biomarkers in newly diagnosed ovarian cancer. J Ovarian Res 6 (1):2</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="13">
+          <ReferenceId>22958293</ReferenceId>
+          <FullCitation>Heeran MC, Høgdall CK, Kjaer SK, et al. (2012) Limited prognostic value of tissue protein expression levels of cyclin E in Danish ovarian cancer patients: from the Danish 'MALOVA' ovarian cancer study. APMIS ePub Oct 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="14">
+          <ReferenceId>12649182</ReferenceId>
+          <FullCitation>Farley J, Smith LM, Darcy KM, et al. (2003) Cyclin E expression is a significant predictor of survival in advanced, suboptimally debulked ovarian epithelial cancers: a Gynecologic Oncology Group study. Cancer Res. 63 (6):1235-41</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="15">
+          <ReferenceId>28331049</ReferenceId>
+          <FullCitation>Lin AB, McNeely SC, Beckmann RP (2017) Achieving Precision Death with Cell-Cycle Inhibitors that Target DNA Replication and Repair. Clin. Cancer Res. 23 (13):3232-3240</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="16">
+          <ReferenceId>29361470</ReferenceId>
+          <FullCitation>Lee JM, Nair J, Zimmer A, et al. (2018) Prexasertib, a cell cycle checkpoint kinase 1 and 2 inhibitor, in BRCA wild-type recurrent high-grade serous ovarian cancer: a first-in-class proof-of-concept phase 2 study. Lancet Oncol. ePub Feb 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="17">
+          <ReferenceId>21552262</ReferenceId>
+          <FullCitation>Toledo LI, Murga M, Zur R, et al. (2011) A cell-based screen identifies ATR inhibitors with synthetic lethal properties for cancer-associated mutations. Nat. Struct. Mol. Biol. ePub Jun 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="18">
+          <ReferenceId>26365377</ReferenceId>
+          <FullCitation>Buisson R, Boisvert JL, Benes CH, et al. (2015) Distinct but Concerted Roles of ATR, DNA-PK, and Chk1 in Countering Replication Stress during S Phase. Mol. Cell ePub Sep 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="19">
+          <ReferenceId>26204491</ReferenceId>
+          <FullCitation>Yang L, Fang D, Chen H, et al. (2015) Cyclin-dependent kinase 2 is an ideal target for ovary tumors with elevated cyclin E1 expression. Oncotarget ePub Aug 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="20">
+          <ReferenceId>25557169</ReferenceId>
+          <FullCitation>Taylor-Harding B, Aspuria PJ, Agadjanian H, et al. (2015) Cyclin E1 and RTK/RAS signaling drive CDK inhibitor resistance via activation of E2F and ETS. Oncotarget ePub Jan 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="21">
+          <ReferenceId>24004674</ReferenceId>
+          <FullCitation>Etemadmoghadam D, Au-Yeung G, Wall M, et al. (2013) Resistance to CDK2 inhibitors is associated with selection of polyploid cells in CCNE1-amplified ovarian cancer. Clin. Cancer Res. 19 (21):5960-71</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="22">
+          <ReferenceId>21321214</ReferenceId>
+          <FullCitation>Scaltriti M, Eichhorn PJ, Cortés J, et al. (2011) Cyclin E amplification/overexpression is a mechanism of trastuzumab resistance in HER2+ breast cancer patients. Proc. Natl. Acad. Sci. U.S.A. ePub Mar 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="23">
+          <ReferenceId>21695458</ReferenceId>
+          <FullCitation>Nanos-Webb A, Jabbour NA, Multani AS, et al. (2012) Targeting low molecular weight cyclin E (LMW-E) in breast cancer. Breast Cancer Res. Treat. ePub Apr 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="24">
+          <ReferenceId>23686769</ReferenceId>
+          <FullCitation>Ma T, Galimberti F, Erkmen CP, et al. (2013) Comparing histone deacetylase inhibitor responses in genetically engineered mouse lung cancer models and a window of opportunity trial in patients with lung cancer. Mol. Cancer Ther. ePub Aug 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="25">
+          <ReferenceId>19193619</ReferenceId>
+          <FullCitation>Etemadmoghadam D, deFazio A, Beroukhim R, et al. (2009) Integrated genome-wide DNA copy number and expression analysis identifies distinct mechanisms of primary chemoresistance in ovarian carcinomas. Clin. Cancer Res. 15 (4):1417-27</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="26">
+          <ReferenceId>26017449</ReferenceId>
+          <FullCitation>Patch AM, Christie EL, Etemadmoghadam D, et al. (2015) Whole-genome characterization of chemoresistant ovarian cancer. Nature ePub May 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="27">
+          <ReferenceId>26693899</ReferenceId>
+          <FullCitation>Lambrechts S, Smeets D, Moisse M, et al. (2016) Genetic heterogeneity after first-line chemotherapy in high-grade serous ovarian cancer. Eur. J. Cancer ePub Jan 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="28">
+          <ReferenceId>19935675</ReferenceId>
+          <FullCitation>Brown CJ, Lain S, Verma CS, et al. (2009) Awakening guardian angels: drugging the p53 pathway. Nat. Rev. Cancer ePub Dec 2009</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="29">
+          <ReferenceId>18410249</ReferenceId>
+          <FullCitation>Joerger AC, Fersht AR (2008) Structural biology of the tumor suppressor p53. Annu. Rev. Biochem. 77 :557-82</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="30">
+          <ReferenceId>12826609</ReferenceId>
+          <FullCitation>Kato S, Han SY, Liu W, et al. (2003) Understanding the function-structure and function-mutation relationships of p53 tumor suppressor protein by high-resolution missense mutation analysis. Proc. Natl. Acad. Sci. U.S.A. 100 (14):8424-9</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="31">
+          <ReferenceId>20978130</ReferenceId>
+          <FullCitation>Kamada R, Nomura T, Anderson CW, et al. (2011) Cancer-associated p53 tetramerization domain mutants: quantitative analysis reveals a low threshold for tumor suppressor inactivation. J. Biol. Chem. ePub Jan 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="32">
+          <ReferenceId>26014290</ReferenceId>
+          <FullCitation>Bougeard G, Renaux-Petel M, Flaman JM, et al. (2015) Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. J. Clin. Oncol. ePub Jul 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="33">
+          <ReferenceId>23355100</ReferenceId>
+          <FullCitation>Sorrell AD, Espenschied CR, Culver JO, et al. (2013) Tumor protein p53 (TP53) testing and Li-Fraumeni syndrome : current status of clinical applications and future directions. Mol Diagn Ther ePub Feb 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="34">
+          <ReferenceId>11219776</ReferenceId>
+          <FullCitation>Nichols KE, Malkin D, Garber JE, et al. (2001) Germ-line p53 mutations predispose to a wide spectrum of early-onset cancers. Cancer Epidemiol. Biomarkers Prev. 10 (2):83-7</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="35">
+          <ReferenceId>10780879</ReferenceId>
+          <FullCitation>Taubert H, Meye A, Würl P (1998) Soft tissue sarcomas and p53 mutations. Mol. Med. 4 (6):365-72</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="36">
+          <ReferenceId>9006316</ReferenceId>
+          <FullCitation>Kleihues P, Schäuble B, zur Hausen A, et al. (1997) Tumors associated with p53 germline mutations: a synopsis of 91 families. Am. J. Pathol. 150 (1):1-13</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="37">
+          <ReferenceId>19204208</ReferenceId>
+          <FullCitation>Gonzalez KD, Noltner KA, Buzin CH, et al. (2009) Beyond Li Fraumeni Syndrome: clinical characteristics of families with p53 germline mutations. J. Clin. Oncol. ePub Mar 2009</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="38">
+          <ReferenceId>12672316</ReferenceId>
+          <FullCitation>Lalloo F, Varley J, Ellis D, et al. (2003) Prediction of pathogenic mutations in patients with early-onset breast cancer by family history. Lancet 361 (9363):1101-2</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="39">
+          <ReferenceId>20229506</ReferenceId>
+          <FullCitation>Ahmed AA, Etemadmoghadam D, Temple J, et al. (2010) Driver mutations in TP53 are ubiquitous in high grade serous carcinoma of the ovary. J. Pathol. ePub May 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="40">
+          <ReferenceId>23029043</ReferenceId>
+          <FullCitation>Wojnarowicz PM, Oros KK, Quinn MC, et al. (2012) The genomic landscape of TP53 and p53 annotated high grade ovarian serous carcinomas from a defined founder population associated with patient outcome. PLoS ONE ePub 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="41">
+          <ReferenceId>21990067</ReferenceId>
+          <FullCitation>Kuhn E, Kurman RJ, Vang R, et al. (2012) TP53 mutations in serous tubal intraepithelial carcinoma and concurrent pelvic high-grade serous carcinoma--evidence supporting the clonal relationship of the two lesions. J. Pathol. ePub Feb 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="42">
+          <ReferenceId>19746182</ReferenceId>
+          <FullCitation>Karst AM, Drapkin R (2010) Ovarian cancer pathogenesis: a model in evolution. J Oncol 2010 :932371</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="43">
+          <ReferenceId>22304686</ReferenceId>
+          <FullCitation>Gadducci A, Guerrieri ME, Genazzani AR (2012) New insights on the pathogenesis of ovarian carcinoma: molecular basis and clinical implications. Gynecol. Endocrinol. ePub Aug 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="44">
+          <ReferenceId>23965232</ReferenceId>
+          <FullCitation>Rechsteiner M, Zimmermann AK, Wild PJ, et al. (2013) TP53 mutations are common in all subtypes of epithelial ovarian cancer and occur concomitantly with KRAS mutations in the mucinous type. Exp. Mol. Pathol. ePub Oct 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="45">
+          <ReferenceId>1680546</ReferenceId>
+          <FullCitation>Okamoto A, Sameshima Y, Yokoyama S, et al. (1991) Frequent allelic losses and mutations of the p53 gene in human ovarian cancer. Cancer Res. 51 (19):5171-6</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="46">
+          <ReferenceId>26181193</ReferenceId>
+          <FullCitation>McDaniel AS, Stall JN, Hovelson DH, et al. (2015) Next-Generation Sequencing of Tubal Intraepithelial Carcinomas. JAMA Oncol ePub Nov 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="47">
+          <ReferenceId>17255760</ReferenceId>
+          <FullCitation>Kindelberger DW, Lee Y, Miron A, et al. (2007) Intraepithelial carcinoma of the fimbria and pelvic serous carcinoma: Evidence for a causal relationship. Am. J. Surg. Pathol. 31 (2):161-9</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="48">
+          <ReferenceId>28106106</ReferenceId>
+          <FullCitation>Meserve EEK, Brouwer J, Crum CP (2017) Serous tubal intraepithelial neoplasia: the concept and its application. Mod. Pathol. ePub May 2017</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="49">
+          <ReferenceId>21683865</ReferenceId>
+          <FullCitation>Kurman RJ, Shih IeM (2011) Molecular pathogenesis and extraovarian origin of epithelial ovarian cancer--shifting the paradigm. Hum. Pathol. ePub Jul 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="50">
+          <ReferenceId>23558569</ReferenceId>
+          <FullCitation>Altman AD, Nelson GS, Ghatage P, et al. (2013) The diagnostic utility of TP53 and CDKN2A to distinguish ovarian high-grade serous carcinoma from low-grade serous ovarian tumors. Mod. Pathol. ePub Sep 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="51">
+          <ReferenceId>23303020</ReferenceId>
+          <FullCitation>Giurgea LN, Ungureanu C, Mihailovici MS (2012) The immunohistochemical expression of p53 and Ki67 in ovarian epithelial borderline tumors. Correlation with clinicopathological factors. Rom J Morphol Embryol 53 (4):967-73</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="52">
+          <ReferenceId>17883046</ReferenceId>
+          <FullCitation>Rajesh NG, Rekha K, Krishna B (2007) Significance of p53 expression in ovarian tumors and its correlation to the morphological differentiation. Indian J Pathol Microbiol 50 (2):284-7</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="53">
+          <ReferenceId>19513073</ReferenceId>
+          <FullCitation>de Graeff P, Crijns AP, de Jong S, et al. (2009) Modest effect of p53, EGFR and HER-2/neu on prognosis in epithelial ovarian cancer: a meta-analysis. Br. J. Cancer ePub Jul 2009</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="54">
+          <ReferenceId>20107315</ReferenceId>
+          <FullCitation>Hirai H, Arai T, Okada M, et al. (2010) MK-1775, a small molecule Wee1 inhibitor, enhances anti-tumor efficacy of various DNA-damaging agents, including 5-fluorouracil. Cancer Biol. Ther. ePub Apr 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="55">
+          <ReferenceId>21799033</ReferenceId>
+          <FullCitation>Bridges KA, Hirai H, Buser CA, et al. (2011) MK-1775, a novel Wee1 kinase inhibitor, radiosensitizes p53-defective human tumor cells. Clin. Cancer Res. 17 (17):5638-48</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="56">
+          <ReferenceId>21389100</ReferenceId>
+          <FullCitation>Rajeshkumar NV, De Oliveira E, Ottenhof N, et al. (2011) MK-1775, a potent Wee1 inhibitor, synergizes with gemcitabine to achieve tumor regressions, selectively in p53-deficient pancreatic cancer xenografts. Clin. Cancer Res. 17 (9):2799-806</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="57">
+          <ReferenceId>25504633</ReferenceId>
+          <FullCitation>Osman AA, Monroe MM, Ortega Alves MV, et al. (2015) Wee-1 kinase inhibition overcomes cisplatin resistance associated with high-risk TP53 mutations in head and neck cancer through mitotic arrest followed by senescence. Mol. Cancer Ther. ePub Feb 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="58">
+          <ReferenceId>12489850</ReferenceId>
+          <FullCitation>Xu L, Huang CC, Huang W, et al. (2002) Systemic tumor-targeted gene delivery by anti-transferrin receptor scFv-immunoliposomes. Mol. Cancer Ther. 1 (5):337-46</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="59">
+          <ReferenceId>11713371</ReferenceId>
+          <FullCitation>Xu L, Tang WH, Huang CC, et al. (2001) Systemic p53 gene therapy of cancer with immunolipoplexes targeted by anti-transferrin receptor scFv. Mol. Med. 7 (10):723-34</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="60">
+          <ReferenceId>23470564</ReferenceId>
+          <FullCitation>Camp ER, Wang C, Little EC, et al. (2013) Transferrin receptor targeting nanomedicine delivering wild-type p53 gene sensitizes pancreatic cancer to gemcitabine therapy. Cancer Gene Ther. ePub Apr 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="61">
+          <ReferenceId>25240597</ReferenceId>
+          <FullCitation>Kim SS, Rait A, Kim E, et al. (2015) A tumor-targeting p53 nanodelivery system limits chemoresistance to temozolomide prolonging survival in a mouse model of glioblastoma multiforme. Nanomedicine ePub Feb 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="62">
+          <ReferenceId>27357628</ReferenceId>
+          <FullCitation>Pirollo KF, Nemunaitis J, Leung PK, et al. (2016) Safety and Efficacy in Advanced Solid Tumors of a Targeted Nanocomplex Carrying the p53 Gene Used in Combination with Docetaxel: A Phase 1b Study. Mol. Ther. ePub Sep 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="63">
+          <ReferenceId>22965953</ReferenceId>
+          <FullCitation>Lehmann S, Bykov VJ, Ali D, et al. (2012) Targeting p53 in vivo: a first-in-human study with p53-targeting compound APR-246 in refractory hematologic malignancies and prostate cancer. J. Clin. Oncol. ePub Oct 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="64">
+          <ReferenceId>26086967</ReferenceId>
+          <FullCitation>Mohell N, Alfredsson J, Fransson Å, et al. (2015) APR-246 overcomes resistance to cisplatin and doxorubicin in ovarian cancer cells. Cell Death Dis ePub Jun 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="65">
+          <ReferenceId>27179933</ReferenceId>
+          <FullCitation>Fransson Å, Glaessgen D, Alfredsson J, et al. (2016) Strong synergy with APR-246 and DNA-damaging drugs in primary cancer cells from patients with TP53 mutant High-Grade Serous ovarian cancer. J Ovarian Res ePub May 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="66">
+          <ReferenceId>27601554</ReferenceId>
+          <FullCitation>Leijen S, van Geel RM, Pavlick AC, et al. (2016) Phase I Study Evaluating WEE1 Inhibitor AZD1775 As Monotherapy and in Combination With Gemcitabine, Cisplatin, or Carboplatin in Patients With Advanced Solid Tumors. J. Clin. Oncol. ePub Dec 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="67">
+          <ReferenceId>22446188</ReferenceId>
+          <FullCitation>Ma CX, Cai S, Li S, et al. (2012) Targeting Chk1 in p53-deficient triple-negative breast cancer is therapeutically beneficial in human-in-mouse tumor models. J. Clin. Invest. ePub Apr 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="68">
+          <ReferenceId>26337942</ReferenceId>
+          <FullCitation>Kocarnik JM, Shiovitz S, Phipps AI (2015) Molecular phenotypes of colorectal cancer and potential clinical applications. Gastroenterol Rep (Oxf) 3 (4):269-76</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="69">
+          <ReferenceId>21081928</ReferenceId>
+          <FullCitation>You JF, Buhard O, Ligtenberg MJ, et al. (2010) Tumours with loss of MSH6 expression are MSI-H when screened with a pentaplex of five mononucleotide repeats. Br. J. Cancer ePub Dec 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="70">
+          <ReferenceId>24623249</ReferenceId>
+          <FullCitation>Bairwa NK, Saha A, Gochhait S, et al. (2014) Microsatellite instability: an indirect assay to detect defects in the cellular mismatch repair machinery. Methods Mol. Biol. ePub 2014</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="71">
+          <ReferenceId>9823339</ReferenceId>
+          <FullCitation>Boland CR, Thibodeau SN, Hamilton SR, et al. (1998) A National Cancer Institute Workshop on Microsatellite Instability for cancer detection and familial predisposition: development of international criteria for the determination of microsatellite instability in colorectal cancer. Cancer Res. 58 (22):5248-57</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="72">
+          <ReferenceId>15528785</ReferenceId>
+          <FullCitation>Pawlik TM, Raut CP, Rodriguez-Bigas MA (2004) Colorectal carcinogenesis: MSI-H versus MSI-L. Dis. Markers 20 (4-5):199-206</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="73">
+          <ReferenceId>20420947</ReferenceId>
+          <FullCitation>Boland CR, Goel A (2010) Microsatellite instability in colorectal cancer. Gastroenterology ePub Jun 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="74">
+          <ReferenceId>26775351</ReferenceId>
+          <FullCitation>Segev Y, Zhang S, Akbari MR, et al. (2015) Survival in women with ovarian cancer with and without microsatellite instability. Eur. J. Gynaecol. Oncol. 36 (6):681-4</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="75">
+          <ReferenceId>18507046</ReferenceId>
+          <FullCitation>Plisiecka-Hałasa J, Dansonka-Mieszkowska A, Kraszewska E, et al. (null) Loss of heterozygosity, microsatellite instability and TP53 gene status in ovarian carcinomas. Anticancer Res. 28 (2A):989-96</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="76">
+          <ReferenceId>25195947</ReferenceId>
+          <FullCitation>Huang HN, Lin MC, Tseng LH, et al. (2015) Ovarian and endometrial endometrioid adenocarcinomas have distinct profiles of microsatellite instability, PTEN expression, and ARID1A expression. Histopathology ePub Mar 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="77">
+          <ReferenceId>22970055</ReferenceId>
+          <FullCitation>Caliman LP, Tavares RL, Piedade JB, et al. (2012) Evaluation of microsatellite instability in women with epithelial ovarian cancer. Oncol Lett 4 (3):556-560</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="78">
+          <ReferenceId>22189970</ReferenceId>
+          <FullCitation>Aysal A, Karnezis A, Medhi I, et al. (2012) Ovarian endometrioid adenocarcinoma: incidence and clinical significance of the morphologic and immunohistochemical markers of mismatch repair protein defects and tumor microsatellite instability. Am. J. Surg. Pathol. ePub Feb 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="79">
+          <ReferenceId>25392179</ReferenceId>
+          <FullCitation>Gatalica Z, Snyder C, Maney T, et al. (2014) Programmed cell death 1 (PD-1) and its ligand (PD-L1) in common cancers and their correlation with molecular cancer type. Cancer Epidemiol. Biomarkers Prev. ePub Dec 2014</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="80">
+          <ReferenceId>26140250</ReferenceId>
+          <FullCitation>Kroemer G, Galluzzi L, Zitvogel L, et al. (2015) Colorectal cancer: the first neoplasia found to be under immunosurveillance and the last one to respond to immunotherapy? Oncoimmunology 4 (7):e1058597</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="81">
+          <ReferenceId>25949894</ReferenceId>
+          <FullCitation>Lal N, Beggs AD, Willcox BE, et al. (2015) An immunogenomic stratification of colorectal cancer: Implications for development of targeted immunotherapy. Oncoimmunology 4 (3):e976052</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="82">
+          <ReferenceId>26028255</ReferenceId>
+          <FullCitation>Le DT, Uram JN, Wang H, et al. (2015) PD-1 Blockade in Tumors with Mismatch-Repair Deficiency. N. Engl. J. Med. ePub Jun 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="83">
+          <ReferenceId>22306179</ReferenceId>
+          <FullCitation>Penton AL, Leonard LD, Spinner NB (2012) Notch signaling in human development and disease. Semin. Cell Dev. Biol. ePub Jun 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="84">
+          <ReferenceId>19379690</ReferenceId>
+          <FullCitation>Kopan R, Ilagan MX (2009) The canonical Notch signaling pathway: unfolding the activation mechanism. Cell ePub Apr 2009</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="85">
+          <ReferenceId>16778208</ReferenceId>
+          <FullCitation>Park JT, Li M, Nakayama K, et al. (2006) Notch3 gene amplification in ovarian cancer. Cancer Res. 66 (12):6312-8</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="86">
+          <ReferenceId>24743243</ReferenceId>
+          <FullCitation>Hu W, Liu T, Ivan C, et al. (2014) Notch3 pathway alterations in ovarian cancer. Cancer Res. ePub Jun 2014</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="87">
+          <ReferenceId>20671266</ReferenceId>
+          <FullCitation>Park JT, Chen X, Tropè CG, et al. (2010) Notch3 overexpression is related to the recurrence of ovarian cancer and confers resistance to carboplatin. Am. J. Pathol. ePub Sep 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="88">
+          <ReferenceId>17804716</ReferenceId>
+          <FullCitation>Konishi J, Kawaguchi KS, Vo H, et al. (2007) Gamma-secretase inhibitor prevents Notch3 activation and reduces proliferation in human lung cancers. Cancer Res. 67 (17):8051-7</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="89">
+          <ReferenceId>22773520</ReferenceId>
+          <FullCitation>Egloff AM, Grandis JR (2012) Molecular pathways: context-dependent approaches to Notch targeting as cancer therapy. Clin. Cancer Res. 18 (19):5188-95</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="90">
+          <ReferenceId>20624166</ReferenceId>
+          <FullCitation>Jung SG, Kwon YD, Song JA, et al. (2010) Prognostic significance of Notch 3 gene expression in ovarian serous carcinoma. Cancer Sci. ePub Sep 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="91">
+          <ReferenceId>21598247</ReferenceId>
+          <FullCitation>Serafin V, Persano L, Moserle L, et al. (2011) Notch3 signalling promotes tumour growth in colorectal cancer. J. Pathol. ePub Aug 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="92">
+          <ReferenceId>20838375</ReferenceId>
+          <FullCitation>Xiao Y, Ye Y, Zou X, et al. (2011) The lymphovascular embolus of inflammatory breast cancer exhibits a Notch 3 addiction. Oncogene ePub Jan 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="93">
+          <ReferenceId>25934888</ReferenceId>
+          <FullCitation>Yen WC, Fischer MM, Axelrod F, et al. (2015) Targeting Notch signaling with a Notch2/Notch3 antagonist (tarextumab) inhibits tumor growth and decreases tumor-initiating cell frequency. Clin. Cancer Res. 21 (9):2084-95</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="94">
+          <ReferenceId>26005526</ReferenceId>
+          <FullCitation>Gavai AV, Quesnelle C, Norris D, et al. (2015) Discovery of Clinical Candidate BMS-906024: A Potent Pan-Notch Inhibitor for the Treatment of Leukemia and Solid Tumors. ACS Med Chem Lett 6 (5):523-7</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="95">
+          <ReferenceId>23458608</ReferenceId>
+          <FullCitation>Espinoza I, Miele L (2013) Notch inhibitors for cancer treatment. Pharmacol. Ther. ePub Aug 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="96">
+          <ReferenceId>15748635</ReferenceId>
+          <FullCitation>Pfeifer GP, You YH, Besaratinia A (2005) Mutations induced by ultraviolet light. Mutat. Res. 571 (1-2):19-31</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="97">
+          <ReferenceId>23875803</ReferenceId>
+          <FullCitation>Hill VK, Gartner JJ, Samuels Y, et al. (2013) The genetics of melanoma: recent advances. Annu Rev Genomics Hum Genet ePub 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="98">
+          <ReferenceId>12379884</ReferenceId>
+          <FullCitation>Pfeifer GP, Denissenko MF, Olivier M, et al. (2002) Tobacco smoke carcinogens, DNA damage and p53 mutations in smoking-associated cancers. Oncogene 21 (48):7435-51</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="99">
+          <ReferenceId>25765070</ReferenceId>
+          <FullCitation>Rizvi NA, Hellmann MD, Snyder A, et al. (2015) Cancer immunology. Mutational landscape determines sensitivity to PD-1 blockade in non-small cell lung cancer. Science ePub Apr 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="100">
+          <ReferenceId>23636398</ReferenceId>
+          <FullCitation>Cancer Genome Atlas Research Network, Kandoth C, Schultz N, et al. (2013) Integrated genomic characterization of endometrial carcinoma. Nature ePub May 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="101">
+          <ReferenceId>23447401</ReferenceId>
+          <FullCitation>Briggs S, Tomlinson I (2013) Germline and somatic polymerase ε and δ mutations define a new class of hypermutated colorectal and endometrial cancers. J. Pathol. ePub Jun 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="102">
+          <ReferenceId>24583393</ReferenceId>
+          <FullCitation>Heitzer E, Tomlinson I (2014) Replicative DNA polymerase mutations in cancer. Curr. Opin. Genet. Dev. ePub Feb 2014</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="103">
+          <ReferenceId>22810696</ReferenceId>
+          <FullCitation>(2012) Comprehensive molecular characterization of human colon and rectal cancer. Nature ePub Jul 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="104">
+          <ReferenceId>25568919</ReferenceId>
+          <FullCitation>Roberts SA, Gordenin DA (2014) Hypermutation in human cancer genomes: footprints and mechanisms. Nat. Rev. Cancer ePub 12 2014</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="105">
+          <ReferenceId>25409260</ReferenceId>
+          <FullCitation>Snyder A, Makarov V, Merghoub T, et al. (2014) Genetic basis for clinical response to CTLA-4 blockade in melanoma. N. Engl. J. Med. ePub Dec 2014</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="106">
+          <ReferenceId>26952546</ReferenceId>
+          <FullCitation>Rosenberg JE, Hoffman-Censits J, Powles T, et al. (2016) Atezolizumab in patients with locally advanced and metastatic urothelial carcinoma who have progressed following treatment with platinum-based chemotherapy: a single-arm, multicentre, phase 2 trial. Lancet ePub May 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="107">
+          <ReferenceId>28420421</ReferenceId>
+          <FullCitation>Chalmers ZR, Connelly CF, Fabrizio D, et al. (2017) Analysis of 100,000 human cancer genomes reveals the landscape of tumor mutational burden. Genome Med ePub 04 2017</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="108">
+          <ReferenceId>26871470</ReferenceId>
+          <FullCitation>Strickland KC, Howitt BE, Shukla SA, et al. (2016) Association and prognostic significance of BRCA1/2-mutation status with neoantigen load, number of tumor-infiltrating lymphocytes and expression of PD-1/PD-L1 in high grade serous ovarian cancer. Oncotarget ePub Mar 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="109">
+          <ReferenceId>29101156</ReferenceId>
+          <FullCitation>(2017) Mutation Load Offers Biomarker in SCLC. Cancer Discov ePub 12 2017</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="110">
+          <ReferenceId>29731394</ReferenceId>
+          <FullCitation>Hellmann MD, Callahan MK, Awad MM, et al. (2018) Tumor Mutational Burden and Efficacy of Nivolumab Monotherapy and in Combination with Ipilimumab in Small-Cell Lung Cancer. Cancer Cell ePub May 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="111">
+          <ReferenceId>29658845</ReferenceId>
+          <FullCitation>Hellmann MD, Ciuleanu TE, Pluzanski A, et al. (2018) Nivolumab plus Ipilimumab in Lung Cancer with a High Tumor Mutational Burden. N. Engl. J. Med. ePub 05 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="112">
+          <ReferenceId>29657128</ReferenceId>
+          <FullCitation>Hellmann MD, Nathanson T, Rizvi H, et al. (2018) Genomic Features of Response to Combination Immunotherapy in Patients with Advanced Non-Small-Cell Lung Cancer. Cancer Cell ePub May 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="113">
+          <ReferenceId>30785829</ReferenceId>
+          <FullCitation>Ready N, Hellmann MD, Awad MM, et al. (2019) First-Line Nivolumab Plus Ipilimumab in Advanced Non-Small-Cell Lung Cancer (CheckMate 568): Outcomes by Programmed Death Ligand 1 and Tumor Mutational Burden as Biomarkers. J. Clin. Oncol. ePub Apr 2019</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="114">
+          <ReferenceId>28835386</ReferenceId>
+          <FullCitation>Goodman AM, Kato S, Bazhenova L, et al. (2017) Tumor Mutational Burden as an Independent Predictor of Response to Immunotherapy in Diverse Cancers. Mol. Cancer Ther. ePub 11 2017</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="115">
+          <ReferenceId>28636851</ReferenceId>
+          <FullCitation>Carbone DP, Reck M, Paz-Ares L, et al. (2017) First-Line Nivolumab in Stage IV or Recurrent Non-Small-Cell Lung Cancer. N. Engl. J. Med. ePub 06 2017</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="116">
+          <ReferenceId>29337640</ReferenceId>
+          <FullCitation>Rizvi H, Sanchez-Vega F, La K, et al. (2018) Molecular Determinants of Response to Anti-Programmed Cell Death (PD)-1 and Anti-Programmed Death-Ligand 1 (PD-L1) Blockade in Patients With Non-Small-Cell Lung Cancer Profiled With Targeted Next-Generation Sequencing. J. Clin. Oncol. ePub Mar 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="117">
+          <ReferenceId>29658848</ReferenceId>
+          <FullCitation>Forde PM, Chaft JE, Smith KN, et al. (2018) Neoadjuvant PD-1 Blockade in Resectable Lung Cancer. N. Engl. J. Med. ePub 05 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="118">
+          <ReferenceId>30643254</ReferenceId>
+          <FullCitation>Samstein RM, Lee CH, Shoushtari AN, et al. (2019) Tumor mutational load predicts survival after immunotherapy across multiple cancer types. Nat. Genet. ePub 02 2019</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="119">
+          <ReferenceId>30150660</ReferenceId>
+          <FullCitation>Miao D, Margolis CA, Vokes NI, et al. (2018) Genomic correlates of response to immune checkpoint blockade in microsatellite-stable solid tumors. Nat. Genet. ePub Sep 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="120">
+          <ReferenceId>30425022</ReferenceId>
+          <FullCitation>Chae YK, Davis AA, Raparia K, et al. (2019) Association of Tumor Mutational Burden With DNA Repair Mutations and Response to Anti-PD-1/PD-L1 Therapy in Non-Small-Cell Lung Cancer. Clin Lung Cancer ePub 03 2019</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="121">
+          <ReferenceId>27197178</ReferenceId>
+          <FullCitation>Colli LM, Machiela MJ, Myers TA, et al. (2016) Burden of Nonsynonymous Mutations among TCGA Cancers and Candidate Immune Checkpoint Inhibitor Responses. Cancer Res. ePub 07 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="122">
+          <ReferenceId>28923100</ReferenceId>
+          <FullCitation>Wang VE, Urisman A, Albacker L, et al. (2017) Checkpoint inhibitor is active against large cell neuroendocrine carcinoma with high tumor mutation burden. J Immunother Cancer ePub 09 2017</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="123">
+          <ReferenceId>30082870</ReferenceId>
+          <FullCitation>Gandara DR, Paul SM, Kowanetz M, et al. (2018) Blood-based tumor mutational burden as a predictor of clinical benefit in non-small-cell lung cancer patients treated with atezolizumab. Nat. Med. ePub 09 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="124">
+          <ReferenceId>27939400</ReferenceId>
+          <FullCitation>Balar AV, Galsky MD, Rosenberg JE, et al. (2017) Atezolizumab as first-line treatment in cisplatin-ineligible patients with locally advanced and metastatic urothelial carcinoma: a single-arm, multicentre, phase 2 trial. Lancet ePub 01 2017</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="125">
+          <ReferenceId>29268948</ReferenceId>
+          <FullCitation>Powles T, Durán I, van der Heijden MS, et al. (2018) Atezolizumab versus chemotherapy in patients with platinum-treated locally advanced or metastatic urothelial carcinoma (IMvigor211): a multicentre, open-label, phase 3 randomised controlled trial. Lancet ePub Feb 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="126">
+          <ReferenceId>29443960</ReferenceId>
+          <FullCitation>Mariathasan S, Turley SJ, Nickles D, et al. (2018) TGFβ attenuates tumour response to PD-L1 blockade by contributing to exclusion of T cells. Nature ePub 02 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="127">
+          <ReferenceId>27671167</ReferenceId>
+          <FullCitation>Johnson DB, Frampton GM, Rioth MJ, et al. (2016) Targeted Next Generation Sequencing Identifies Markers of Response to PD-1 Blockade. Cancer Immunol Res ePub Nov 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="128">
+          <ReferenceId>29320474</ReferenceId>
+          <FullCitation>Eroglu Z, Zaretsky JM, Hu-Lieskovan S, et al. (2018) High response rate to PD-1 blockade in desmoplastic melanomas. Nature ePub 01 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="129">
+          <ReferenceId>27903500</ReferenceId>
+          <FullCitation>Shin DS, Zaretsky JM, Escuin-Ordinas H, et al. (2017) Primary Resistance to PD-1 Blockade Mediated by JAK1/2 Mutations. Cancer Discov ePub 02 2017</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="130">
+          <ReferenceId>29033130</ReferenceId>
+          <FullCitation>Riaz N, Havel JJ, Makarov V, et al. (2017) Tumor and Microenvironment Evolution during Immunotherapy with Nivolumab. Cell ePub Nov 2017</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="131">
+          <ReferenceId>30309915</ReferenceId>
+          <FullCitation>Cristescu R, Mogg R, Ayers M, et al. (2018) Pan-tumor genomic biomarkers for PD-1 checkpoint blockade-based immunotherapy. Science ePub 10 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="132">
+          <ReferenceId>30151257</ReferenceId>
+          <FullCitation>Fabrizio DA, George TJ, Dunne RF, et al. (2018) Beyond microsatellite testing: assessment of tumor mutational burden identifies subsets of colorectal cancer who may respond to immune checkpoint inhibition. J Gastrointest Oncol 9 (4):610-617</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="133">
+          <ReferenceId>29467336</ReferenceId>
+          <FullCitation>Hanna GJ, Lizotte P, Cavanaugh M, et al. (2018) Frameshift events predict anti-PD-1/L1 response in head and neck cancer. JCI Insight ePub Feb 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="134">
+          <ReferenceId>30557521</ReferenceId>
+          <FullCitation>Ott PA, Bang YJ, Piha-Paul SA, et al. (2019) T-Cell-Inflamed Gene-Expression Profile, Programmed Death Ligand 1 Expression, and Tumor Mutational Burden Predict Efficacy in Patients Treated With Pembrolizumab Across 20 Cancers: KEYNOTE-028. J. Clin. Oncol. ePub Feb 2019</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="135">
+          <ReferenceId>27159395</ReferenceId>
+          <FullCitation>Mehnert JM, Panda A, Zhong H, et al. (2016) Immune activation and response to pembrolizumab in POLE-mutant endometrial cancer. J. Clin. Invest. ePub Jun 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="136">
+          <ReferenceId>27486176</ReferenceId>
+          <FullCitation>Santin AD, Bellone S, Buza N, et al. (2016) Regression of Chemotherapy-Resistant Polymerase ε (POLE) Ultra-Mutated and MSH6 Hyper-Mutated Endometrial Tumors with Nivolumab. Clin. Cancer Res. 22 (23):5682-5687</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="137">
+          <ReferenceId>26359337</ReferenceId>
+          <FullCitation>Van Allen EM, Miao D, Schilling B, et al. (2015) Genomic correlates of response to CTLA-4 blockade in metastatic melanoma. Science ePub Oct 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="138">
+          <ReferenceId>27776519</ReferenceId>
+          <FullCitation>Roszik J, Haydu LE, Hess KR, et al. (2016) Novel algorithmic approach predicts tumor mutation load and correlates with immunotherapy clinical outcomes using a defined gene mutation set. BMC Med ePub 10 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="139">
+          <ReferenceId>15664155</ReferenceId>
+          <FullCitation>Xu Y, Harder KW, Huntington ND, et al. (2005) Lyn tyrosine kinase: accentuating the positive and the negative. Immunity 22 (1):9-18</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="140">
+          <ReferenceId>22805580</ReferenceId>
+          <FullCitation>(2012) Functions of the Lyn tyrosine kinase in health and disease. Cell Commun. Signal ePub Jul 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="141">
+          <ReferenceId>15994925</ReferenceId>
+          <FullCitation>Stettner MR, Wang W, Nabors LB, et al. (2005) Lyn kinase activity is the predominant cellular SRC kinase activity in glioblastoma tumor cells. Cancer Res. 65 (13):5535-43</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="142">
+          <ReferenceId>14871838</ReferenceId>
+          <FullCitation>Goldenberg-Furmanov M, Stein I, Pikarsky E, et al. (2004) Lyn is a target gene for prostate cancer: sequence-based inhibition induces regression of human tumor xenografts. Cancer Res. 64 (3):1058-66</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="143">
+          <ReferenceId>22490227</ReferenceId>
+          <FullCitation>Wheeler SE, Morariu EM, Bednash JS, et al. (2012) Lyn kinase mediates cell motility and tumor growth in EGFRvIII-expressing head and neck cancer. Clin. Cancer Res. 18 (10):2850-60</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="144">
+          <ReferenceId>18644993</ReferenceId>
+          <FullCitation>Guan H, Zhou Z, Gallick GE, et al. (2008) Targeting Lyn inhibits tumor growth and metastasis in Ewing's sarcoma. Mol. Cancer Ther. 7 (7):1807-16</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="145">
+          <ReferenceId>20215510</ReferenceId>
+          <FullCitation>Choi YL, Bocanegra M, Kwon MJ, et al. (2010) LYN is a mediator of epithelial-mesenchymal transition and a target of dasatinib in breast cancer. Cancer Res. ePub Mar 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="146">
+          <ReferenceId>11431370</ReferenceId>
+          <FullCitation>Bates RC, Edwards NS, Burns GF, et al. (2001) A CD44 survival pathway triggers chemoresistance via lyn kinase and phosphoinositide 3-kinase/Akt in colon carcinoma cells. Cancer Res. 61 (13):5275-83</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="147">
+          <ReferenceId>18984583</ReferenceId>
+          <FullCitation>Williams NK, Lucet IS, Klinken SP, et al. (2009) Crystal structures of the Lyn protein tyrosine kinase domain in its Apo- and inhibitor-bound state. J. Biol. Chem. 284 (1):284-91</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="148">
+          <ReferenceId>16230377</ReferenceId>
+          <FullCitation>Nam S, Kim D, Cheng JQ, et al. (2005) Action of the Src family kinase inhibitor, dasatinib (BMS-354825), on human prostate cancer cells. Cancer Res. 65 (20):9185-9</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="149">
+          <ReferenceId>15268862</ReferenceId>
+          <FullCitation>Sarbassov DD, Ali SM, Kim DH, et al. (2004) Rictor, a novel binding partner of mTOR, defines a rapamycin-insensitive and raptor-independent pathway that regulates the cytoskeleton. Curr. Biol. 14 (14):1296-302</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="150">
+          <ReferenceId>15467718</ReferenceId>
+          <FullCitation>Jacinto E, Loewith R, Schmidt A, et al. (2004) Mammalian TOR complex 2 controls the actin cytoskeleton and is rapamycin insensitive. Nat. Cell Biol. 6 (11):1122-8</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="151">
+          <ReferenceId>17461779</ReferenceId>
+          <FullCitation>Pearce LR, Huang X, Boudeau J, et al. (2007) Identification of Protor as a novel Rictor-binding component of mTOR complex-2. Biochem. J. ePub Aug 2007</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="152">
+          <ReferenceId>24978188</ReferenceId>
+          <FullCitation>Ross JS, Wang K, Elkadi OR, et al. (2014) Next-generation sequencing reveals frequent consistent genomic alterations in small cell undifferentiated lung cancer. J. Clin. Pathol. ePub Sep 2014</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="153">
+          <ReferenceId>20418915</ReferenceId>
+          <FullCitation>Sparks CA, Guertin DA (2010) Targeting mTOR: prospects for mTOR complex 2 inhibitors in cancer therapy. Oncogene ePub Jul 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="154">
+          <ReferenceId>18089801</ReferenceId>
+          <FullCitation>Masri J, Bernath A, Martin J, et al. (2007) mTORC2 activity is elevated in gliomas and promotes growth and cell motility via overexpression of rictor. Cancer Res. ePub Dec 2007</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="155">
+          <ReferenceId>26370156</ReferenceId>
+          <FullCitation>Cheng H, Zou Y, Ross JS, et al. (2015) RICTOR Amplification Defines a Novel Subset of Patients with Lung Cancer Who May Benefit from Treatment with mTORC1/2 Inhibitors. Cancer Discov ePub Dec 2015</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="156">
+          <ReferenceId>21490404</ReferenceId>
+          <FullCitation>Wander SA, Hennessy BT, Slingerland JM (2011) Next-generation mTOR inhibitors in clinical oncology: how pathway complexity informs therapeutic strategy. J. Clin. Invest. ePub Apr 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="157">
+          <ReferenceId>21651476</ReferenceId>
+          <FullCitation>Schenone S, Brullo C, Musumeci F, et al. (2011) ATP-competitive inhibitors of mTOR: an update. Curr. Med. Chem. ePub 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="158">
+          <ReferenceId>16337594</ReferenceId>
+          <FullCitation>Sdek P, Ying H, Chang DL, et al. (2005) MDM2 promotes proteasome-dependent ubiquitin-independent degradation of retinoblastoma protein. Mol. Cell 20 (5):699-708</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="159">
+          <ReferenceId>15632057</ReferenceId>
+          <FullCitation>Brady M, Vlatkovic N, Boyd MT (2005) Regulation of p53 and MDM2 activity by MTBP. Mol. Cell. Biol. 25 (2):545-53</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="160">
+          <ReferenceId>15053880</ReferenceId>
+          <FullCitation>Li M, Brooks CL, Kon N, et al. (2004) A dynamic role of HAUSP in the p53-Mdm2 pathway. Mol. Cell 13 (6):879-86</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="161">
+          <ReferenceId>8306343</ReferenceId>
+          <FullCitation>Cordon-Cardo C, Latres E, Drobnjak M, et al. (1994) Molecular abnormalities of mdm2 and p53 genes in adult soft tissue sarcomas. Cancer Res. 54 (3):794-9</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="162">
+          <ReferenceId>20164920</ReferenceId>
+          <FullCitation>Beroukhim R, Mermel CH, Porter D, et al. (2010) The landscape of somatic copy-number alteration across human cancers. Nature ePub Feb 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="163">
+          <ReferenceId>28351930</ReferenceId>
+          <FullCitation>Kato S, Goodman A, Walavalkar V, et al. (2017) Hyperprogressors after Immunotherapy: Analysis of Genomic Alterations Associated with Accelerated Growth Rate. Clin. Cancer Res. 23 (15):4242-4250</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="164">
+          <ReferenceId>9671804</ReferenceId>
+          <FullCitation>Momand J, Jung D, Wilczynski S, et al. (1998) The MDM2 gene amplification database. Nucleic Acids Res. 26 (15):3453-9</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="165">
+          <ReferenceId>15790436</ReferenceId>
+          <FullCitation>Dogan E, Saygili U, Tuna B, et al. (2005) p53 and mdm2 as prognostic indicators in patients with epithelial ovarian cancer: a multivariate analysis. Gynecol. Oncol. 97 (1):46-52</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="166">
+          <ReferenceId>21131918</ReferenceId>
+          <FullCitation>Kalloger SE, Köbel M, Leung S, et al. (2011) Calculator for ovarian carcinoma subtype prediction. Mod. Pathol. ePub Apr 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="167">
+          <ReferenceId>27659536</ReferenceId>
+          <FullCitation>Makii C, Oda K, Ikeda Y, et al. (2016) MDM2 is a potential therapeutic target and prognostic factor for ovarian clear cell carcinomas with wild type TP53. Oncotarget ePub Nov 2016</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="168">
+          <ReferenceId>20975744</ReferenceId>
+          <FullCitation>Cheok CF, Verma CS, Baselga J, et al. (2011) Translating p53 into the clinic. Nat Rev Clin Oncol ePub Jan 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="169">
+          <ReferenceId>23165797</ReferenceId>
+          <FullCitation>Ohnstad HO, Castro R, Sun J, et al. (2013) Correlation of TP53 and MDM2 genotypes with response to therapy in sarcoma. Cancer ePub Mar 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="170">
+          <ReferenceId>21725357</ReferenceId>
+          <FullCitation>Gamble LD, Kees UR, Tweddle DA, et al. (2012) MYCN sensitizes neuroblastoma to the MDM2-p53 antagonists Nutlin-3 and MI-63. Oncogene ePub Feb 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="171">
+          <ReferenceId>21993244</ReferenceId>
+          <FullCitation>Pylayeva-Gupta Y, Grabocka E, Bar-Sagi D (2011) RAS oncogenes: weaving a tumorigenic web. Nat. Rev. Cancer ePub Oct 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="172">
+          <ReferenceId>3310850</ReferenceId>
+          <FullCitation>Kahn S, Yamamoto F, Almoguera C, et al. (null) The c-K-ras gene and human cancer (review). Anticancer Res. 7 (4A):639-52</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="173">
+          <ReferenceId>16354586</ReferenceId>
+          <FullCitation>McIntyre A, Summersgill B, Spendlove HE, et al. (2005) Activating mutations and/or expression levels of tyrosine kinase receptors GRB7, RAS, and BRAF in testicular germ cell tumors. Neoplasia 7 (12):1047-52</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="174">
+          <ReferenceId>19545448</ReferenceId>
+          <FullCitation>Mita H, Toyota M, Aoki F, et al. (2009) A novel method, digital genome scanning detects KRAS gene amplification in gastric cancers: involvement of overexpressed wild-type KRAS in downstream signaling and cancer cell growth. BMC Cancer ePub Jun 2009</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="175">
+          <ReferenceId>23099803</ReferenceId>
+          <FullCitation>Birkeland E, Wik E, Mjøs S, et al. (2012) KRAS gene amplification and overexpression but not mutation associates with aggressive and metastatic endometrial cancer. Br. J. Cancer ePub Dec 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="176">
+          <ReferenceId>24874471</ReferenceId>
+          <FullCitation>Chen Y, McGee J, Chen X, et al. (2014) Identification of druggable cancer driver genes amplified across TCGA datasets. PLoS ONE ePub 2014</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="177">
+          <ReferenceId>8630881</ReferenceId>
+          <FullCitation>Mizuuchi H, Mori Y, Sato K, et al. (1995) High incidence of point mutation in K-ras codon 12 in carcinoma of the fallopian tube. Cancer 76 (1):86-90</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="178">
+          <ReferenceId>23820584</ReferenceId>
+          <FullCitation>Rahman MT, Nakayama K, Rahman M, et al. (2013) KRAS and MAPK1 gene amplification in type II ovarian carcinomas. Int J Mol Sci 14 (7):13748-62</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="179">
+          <ReferenceId>6320174</ReferenceId>
+          <FullCitation>Nakano H, Yamamoto F, Neville C, et al. (1984) Isolation of transforming sequences of two human lung carcinomas: structural and functional analysis of the activated c-K-ras oncogenes. Proc. Natl. Acad. Sci. U.S.A. 81 (1):71-5</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="180">
+          <ReferenceId>21523318</ReferenceId>
+          <FullCitation>Yamaguchi T, Kakefuda R, Tajima N, et al. (2011) Antitumor activities of JTP-74057 (GSK1120212), a novel MEK1/2 inhibitor, on colorectal cancer cell lines in vitro and in vivo. Int. J. Oncol. ePub Jul 2011</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="181">
+          <ReferenceId>23438367</ReferenceId>
+          <FullCitation>Watanabe M, Sowa Y, Yogosawa M, et al. (2013) Novel MEK inhibitor trametinib and other retinoblastoma gene (RB)-reactivating agents enhance efficacy of 5-fluorouracil on human colon cancer cells. Cancer Sci. ePub Jun 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="182">
+          <ReferenceId>21245089</ReferenceId>
+          <FullCitation>Gilmartin AG, Bleam MR, Groy A, et al. (2011) GSK1120212 (JTP-74057) is an inhibitor of MEK activity and activation with favorable pharmacokinetic properties for sustained in vivo pathway inhibition. Clin. Cancer Res. 17 (5):989-1000</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="183">
+          <ReferenceId>19372556</ReferenceId>
+          <FullCitation>Yeh JJ, Routh ED, Rubinas T, et al. (2009) KRAS/BRAF mutation status and ERK1/2 activation as biomarkers for MEK1/2 inhibitor therapy in colorectal cancer. Mol. Cancer Ther. 8 (4):834-43</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="184">
+          <ReferenceId>24935174</ReferenceId>
+          <FullCitation>Qian Z, Zhu G, Tang L, et al. (2014) Whole genome gene copy number profiling of gastric cancer identifies PAK1 and KRAS gene amplification as therapy targets. Genes Chromosomes Cancer ePub Nov 2014</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="185">
+          <ReferenceId>25500057</ReferenceId>
+          <FullCitation>Bedard PL, Tabernero J, Janku F, et al. (2015) A phase Ib dose-escalation study of the oral pan-PI3K inhibitor buparlisib (BKM120) in combination with the oral MEK1/2 inhibitor trametinib (GSK1120212) in patients with selected advanced solid tumors. Clin. Cancer Res. 21 (4):730-8</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="186">
+          <ReferenceId>22805291</ReferenceId>
+          <FullCitation>Infante JR, Fecher LA, Falchook GS, et al. (2012) Safety, pharmacokinetic, pharmacodynamic, and efficacy data for the oral MEK inhibitor trametinib: a phase 1 dose-escalation trial. Lancet Oncol. ePub Aug 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="187">
+          <ReferenceId>23200175</ReferenceId>
+          <FullCitation>Jänne PA, Shaw AT, Pereira JR, et al. (2013) Selumetinib plus docetaxel for KRAS-mutant advanced non-small-cell lung cancer: a randomised, multicentre, placebo-controlled, phase 2 study. Lancet Oncol. ePub Jan 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="188">
+          <ReferenceId>9628872</ReferenceId>
+          <FullCitation>Strong JE, Coffey MC, Tang D, et al. (1998) The molecular basis of viral oncolysis: usurpation of the Ras signaling pathway by reovirus. EMBO J. 17 (12):3351-62</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="189">
+          <ReferenceId>9812900</ReferenceId>
+          <FullCitation>Coffey MC, Strong JE, Forsyth PA, et al. (1998) Reovirus therapy of tumors with activated Ras pathway. Science 282 (5392):1332-4</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="190">
+          <ReferenceId>25019061</ReferenceId>
+          <FullCitation>Gong J, Mita MM (2014) Activated ras signaling pathways and reovirus oncolysis: an update on the mechanism of preferential reovirus replication in cancer cells. Front Oncol 4 :167</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="191">
+          <ReferenceId>18253152</ReferenceId>
+          <FullCitation>Forsyth P, Roldán G, George D, et al. (2008) A phase I trial of intratumoral administration of reovirus in patients with histologically confirmed recurrent malignant gliomas. Mol. Ther. ePub Mar 2008</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="192">
+          <ReferenceId>18981012</ReferenceId>
+          <FullCitation>Vidal L, Pandha HS, Yap TA, et al. (2008) A phase I study of intravenous oncolytic reovirus type 3 Dearing in patients with advanced cancer. Clin. Cancer Res. 14 (21):7127-37</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="193">
+          <ReferenceId>19572105</ReferenceId>
+          <FullCitation>Gollamudi R, Ghalib MH, Desai KK, et al. (2010) Intravenous administration of Reolysin, a live replication competent RNA virus is safe in patients with advanced solid tumors. Invest New Drugs ePub Oct 2010</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="194">
+          <ReferenceId>20484020</ReferenceId>
+          <FullCitation>Harrington KJ, Karapanagiotou EM, Roulstone V, et al. (2010) Two-stage phase I dose-escalation study of intratumoral reovirus type 3 dearing and palliative radiotherapy in patients with advanced cancers. Clin. Cancer Res. 16 (11):3067-77</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="195">
+          <ReferenceId>20926400</ReferenceId>
+          <FullCitation>Comins C, Spicer J, Protheroe A, et al. (2010) REO-10: a phase I study of intravenous reovirus and docetaxel in patients with advanced cancer. Clin. Cancer Res. 16 (22):5564-72</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="196">
+          <ReferenceId>21106728</ReferenceId>
+          <FullCitation>Lolkema MP, Arkenau HT, Harrington K, et al. (2011) A phase I study of the combination of intravenous reovirus type 3 Dearing and gemcitabine in patients with advanced cancer. Clin. Cancer Res. 17 (3):581-8</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="197">
+          <ReferenceId>22871663</ReferenceId>
+          <FullCitation>Galanis E, Markovic SN, Suman VJ, et al. (2012) Phase II trial of intravenous administration of Reolysin(®) (Reovirus Serotype-3-dearing Strain) in patients with metastatic melanoma. Mol. Ther. ePub Oct 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="198">
+          <ReferenceId>22316603</ReferenceId>
+          <FullCitation>Karapanagiotou EM, Roulstone V, Twigger K, et al. (2012) Phase I/II trial of carboplatin and paclitaxel chemotherapy in combination with intravenous oncolytic reovirus in patients with advanced malignancies. Clin. Cancer Res. 18 (7):2080-9</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="199">
+          <ReferenceId>22886613</ReferenceId>
+          <FullCitation>Morris DG, Feng X, DiFrancesco LM, et al. (2013) REO-001: A phase I trial of percutaneous intralesional administration of reovirus type 3 dearing (Reolysin®) in patients with advanced solid tumors. Invest New Drugs ePub Jun 2013</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="200">
+          <ReferenceId>29844129</ReferenceId>
+          <FullCitation>Grisham R, Moore KN, Gordon MS, et al. (2018) Phase Ib Study of Binimetinib with Paclitaxel in Patients with Platinum-Resistant Ovarian Cancer: Final Results, Potential Biomarkers, and Extreme Responders. Clin. Cancer Res.</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="201">
+          <ReferenceId>29765547</ReferenceId>
+          <FullCitation>Slosberg ED, Kang BP, Peguero J, et al. (2018) Signature program: a platform of basket trials. Oncotarget ePub Apr 2018</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="202">
+          <ReferenceId>30867592</ReferenceId>
+          <FullCitation>Diamond EL, Durham BH, Ulaner GA, et al. (2019) Efficacy of MEK inhibition in patients with histiocytic neoplasms. Nature ePub Mar 2019</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="203">
+          <ReferenceId>29236635</ReferenceId>
+          <FullCitation>Jacobsen E, Shanmugam V, Jagannathan J (2017) Rosai-Dorfman Disease with Activating KRAS Mutation - Response to Cobimetinib. N. Engl. J. Med. ePub 12 2017</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="204">
+          <ReferenceId>22084396</ReferenceId>
+          <FullCitation>Hoeflich KP, Merchant M, Orr C, et al. (2012) Intermittent administration of MEK inhibitor GDC-0973 plus PI3K inhibitor GDC-0941 triggers robust apoptosis and tumor growth inhibition. Cancer Res. ePub Jan 2012</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="205">
+          <ReferenceId>30809568</ReferenceId>
+          <FullCitation>Champer M, Miller D, Kuo DY (2019) Gynecol Oncol Rep 28 :26-28</FullCitation>
+          <Include>true</Include>
+        </Reference>
+        <Reference number="206">
+          <ReferenceId>29946554</ReferenceId>
+          <FullCitation>Han C, Bellone S, Zammataro L, et al. (2018) Binimetinib (MEK162) in recurrent low-grade serous ovarian cancer resistant to chemotherapy and hormonal treatment. Gynecol Oncol Rep 25 :41-44</FullCitation>
+          <Include>true</Include>
+        </Reference>
+      </References>
+      <Signatures>
+        <Signature>
+          <ServerTime>2019-07-29 22:47:17</ServerTime>
+          <OpName>Douglas Lin, M.D. | Jeffrey Ross, M.D., Medical Director, , M.D.</OpName>
+          <Text>Douglas Lin, M.D. | Jeffrey Ross, M.D., Medical Director, , M.D.</Text>
+        </Signature>
+      </Signatures>
+      <reportProperties>
+        <reportProperty identifier="QualityControlMetrics" key="MedianCoverageValue">
+          <value>838x</value>
+        </reportProperty>
+        <reportProperty identifier="AdditionalFindings" key="TumorMutationBurdenScore">
+          <value>4 Muts/Mb</value>
+        </reportProperty>
+      </reportProperties>
+      <comments />
+      <AAC>
+        <Amendmends />
+      </AAC>
+    </FinalReport>
+    <variant-report xmlns="http://foundationmedicine.com/compbio/variant-report-external" disease="FALLOPIAN TUBE" disease-ontology="Fallopian tube serous carcinoma" flowcell-analysis="2000005440" gender="female" pathology-diagnosis="Metastatic papillary serous carcinoma" percent-tumor-nuclei="30" pipeline-version="v3.3.3" purity-assessment="58.5" specimen="QRF147344.01" study="CLINICAL-F1CDx" test-request="QRF147344" test-type="FoundationOneDx" tissue-of-origin="Omentum" xsi:schemaLocation="http://foundationmedicine.com/compbio/variant-report-external http://integration.foundationmedicine.com/reporting/variant-report-external-2.2.xsd">
+      <samples>
+        <sample bait-set="DX1" mean-exon-depth="889.89" name="SA-831671" nucleic-acid-type="DNA" />
+      </samples>
+      <quality-control status="Pass" />
+      <short-variants>
+        <short-variant allele-fraction="0.2138" cds-effect="7544C&gt;T" depth="842" equivocal="false" functional-effect="missense" gene="BRCA2" percent-reads="21.38" position="chr13:32930673" protein-effect="T2515I" status="unknown" strand="+" transcript="NM_000059">
+          <dna-evidence sample="SA-831671" />
+        </short-variant>
+        <short-variant allele-fraction="0.6814" cds-effect="742C&gt;T" depth="794" equivocal="false" functional-effect="missense" gene="TP53" percent-reads="68.14" position="chr17:7577539" protein-effect="R248W" status="known" strand="-" transcript="NM_000546">
+          <dna-evidence sample="SA-831671" />
+        </short-variant>
+        <short-variant allele-fraction="0.4943" cds-effect="1238A&gt;C" depth="613" equivocal="false" functional-effect="missense" gene="MSH3" percent-reads="49.43" position="chr5:79974810" protein-effect="E413A" status="unknown" strand="+" transcript="NM_002439">
+          <dna-evidence sample="SA-831671" />
+        </short-variant>
+        <short-variant allele-fraction="0.0836" cds-effect="908A&gt;T" depth="2248" equivocal="false" functional-effect="missense" gene="KEAP1" percent-reads="8.36" position="chr19:10602670" protein-effect="K303M" status="unknown" strand="-" transcript="NM_012289">
+          <dna-evidence sample="SA-831671" />
+        </short-variant>
+        <short-variant allele-fraction="0.1656" cds-effect="542G&gt;A" depth="773" equivocal="false" functional-effect="missense" gene="HRAS" percent-reads="16.56" position="chr11:532664" protein-effect="C181Y" status="unknown" strand="-" transcript="NM_005343">
+          <dna-evidence sample="SA-831671" />
+        </short-variant>
+        <short-variant allele-fraction="0.5098" cds-effect="2773G&gt;A" depth="1124" equivocal="false" functional-effect="missense" gene="TEK" percent-reads="50.98" position="chr9:27212791" protein-effect="A925T" status="unknown" strand="+" transcript="NM_000459">
+          <dna-evidence sample="SA-831671" />
+        </short-variant>
+        <short-variant allele-fraction="0.8398" cds-effect="2194C&gt;T" depth="774" equivocal="false" functional-effect="missense" gene="TSC1" percent-reads="83.98" position="chr9:135779052" protein-effect="H732Y" status="unknown" strand="-" transcript="NM_000368">
+          <dna-evidence sample="SA-831671" />
+        </short-variant>
+      </short-variants>
+      <copy-number-alterations>
+        <copy-number-alteration copy-number="7" equivocal="true" gene="LYN" number-of-exons="12 of 12" position="chr8:56854418-56922669" ratio="1.87" status="known" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+        <copy-number-alteration copy-number="8" equivocal="false" gene="RICTOR" number-of-exons="37 of 39" position="chr5:38942378-39021253" ratio="2.62" status="known" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+        <copy-number-alteration copy-number="7" equivocal="true" gene="CCNE1" number-of-exons="10 of 10" position="chr19:30253918-30360638" ratio="2.16" status="known" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+        <copy-number-alteration copy-number="8" equivocal="false" gene="MDM2" number-of-exons="10 of 11" position="chr12:69153996-69230554" ratio="2.36" status="known" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+        <copy-number-alteration copy-number="9" equivocal="false" gene="FANCG" number-of-exons="14 of 14" position="chr9:35074094-35079544" ratio="2.43" status="unknown" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+        <copy-number-alteration copy-number="9" equivocal="false" gene="BRD4" number-of-exons="20 of 20" position="chr19:15349157-15383910" ratio="2.71" status="unknown" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+        <copy-number-alteration copy-number="7" equivocal="true" gene="PTPRO" number-of-exons="27 of 27" position="chr12:15475633-15747987" ratio="2.06" status="unknown" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+        <copy-number-alteration copy-number="8" equivocal="false" gene="KRAS" number-of-exons="5 of 5" position="chr12:25344730-25417157" ratio="2.39" status="known" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+        <copy-number-alteration copy-number="10" equivocal="false" gene="KEAP1" number-of-exons="5 of 5" position="chr19:10597327-10610709" ratio="3.12" status="unknown" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+        <copy-number-alteration copy-number="9" equivocal="false" gene="NOTCH3" number-of-exons="33 of 33" position="chr19:15271472-15311722" ratio="2.66" status="known" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+        <copy-number-alteration copy-number="7" equivocal="true" gene="PIK3C2G" number-of-exons="31 of 31" position="chr12:18435015-18800962" ratio="2.22" status="unknown" type="amplification">
+          <dna-evidence sample="SA-831671" />
+        </copy-number-alteration>
+      </copy-number-alterations>
+      <rearrangements>
+        <rearrangement description="MDM2(NM_002392) inversion intron 10 - exon 11" equivocal="false" in-frame="unknown" other-gene="MDM2" pos1="chr12:69230280-69230657" pos2="chr12:69232696-69233083" status="unknown" supporting-read-pairs="124" targeted-gene="MDM2" type="rearrangement">
+          <dna-evidence sample="SA-831671" />
+        </rearrangement>
+      </rearrangements>
+      <biomarkers>
+        <microsatellite-instability status="MSS" />
+        <tumor-mutation-burden score="3.78" status="low" unit="mutations-per-megabase" />
+      </biomarkers>
+      <non-human-content />
+    </variant-report>
+  </rr:ResultsPayload>
+</rr:ResultsReport>
