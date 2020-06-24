@@ -13,7 +13,7 @@ A detailed XML (Extensible Markup Language) data file is usually provided by Fou
 
 https://assets.ctfassets.net/vhribv12lmne/P1UbtVjOoeAcaOCWoWQkW/7e3d66f7396466156e8eb4b27d0d471b/F1CDx_SampleReport.pdf
 
-Most bioinformatic analysis as well as clinical investigations into the patient's tumor profile require further information that is left out of the pdf report delivered to physicians. These include the variant allele frequencies, sequencing depth for each variant, chromosomal loci of the mutation in order to determine its effect on the gene... 
+Most bioinformatic analysis as well as clinical investigations into the patient's tumor profile require further information which is left out of the pdf report delivered to physicians. These include the variant allele frequencies, sequencing depth for each variant, chromosomal loci of the mutation in order to determine its effect on the gene... 
 For that purpose, this tool is presented to to provide clinicians with a simple user interface able to extract all relevant information from the xml files for analysis.
 
 # Running FoundationMedicineDataExtraction application
