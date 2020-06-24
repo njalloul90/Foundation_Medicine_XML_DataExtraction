@@ -18,9 +18,14 @@ For that purpose, this tool is presented to to provide clinicians with a simple 
 
 # Running FoundationMedicineDataExtraction application
 
-The application can be directly accessed through the url:
+The application is available as a webpage and can be directly accessed through the url:
 
 https://njalloul.shinyapps.io/FoundationMedicineDataExtraction/?_ga=2.21770171.1421588860.1593013867-628062037.1593013867
+
+You can also launch the app by running:
+
+runGitHub( "Foundation_Medicine_XML_DataExtraction", "njalloul90")
+  
 
 The tumor sequencing results presented in the xml files are organised in separate tags. The table below indicates the tags used to extract information in this application as well as the description of each tag:
 
