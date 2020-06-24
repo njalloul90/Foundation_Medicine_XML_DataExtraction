@@ -34,7 +34,15 @@ The tumor sequencing results presented in the xml files are organised in separat
 | CollDate | Date of sample collection at medical facility |
 | ReceivedDate | Date of sample recieved by FoundationMedicine |
 | CountryOfOrigin | Patient's country of origin |
-| CountryOfOrigin | Patient's country of origin |
+| percent-tumor-nuclei | Histological tumor purity estimate |
+| purity-assessment | Computational tumor purity estimate |
+| tumor-mutation-burden score | Tumor mutational burden score and status |
+| microsatellite-instability status | Microsatellite instability status |
+| short-variants | Identified genomic alterations; attributes include allele frequencies, sequencing depth,protein change, chromosomal position and strand, functional effect, and mutation |
+| copy-number-alterations | Identified copy number alterations; alterations found here can overlap with the identified genomic alterations |
+| VariantProperties | Variants of unknown significance (VUS) |
+| rearrangements | Identified rearrangemets; attributes include targeted gene, description, second gene, and corresponding positions |
+
 
 
 
