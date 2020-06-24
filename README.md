@@ -34,6 +34,7 @@ The tumor sequencing results presented in the xml files are organised in separat
 | CollDate | Date of sample collection at medical facility |
 | ReceivedDate | Date of sample recieved by FoundationMedicine |
 | CountryOfOrigin | Patient's country of origin |
+| CountryOfOrigin | Patient's country of origin |
 
 
 
